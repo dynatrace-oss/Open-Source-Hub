@@ -147,19 +147,19 @@ Then determine:
 
 See:
 
-[Private-to-Public Transition](../publishing/private-to-public.md)
+[Private-to-Public Transition](private-to-public.md)
 
 ### I am creating a new repository
 
 See:
 
-[New Repository Requirements](../publishing/new-repositories.md)
+[New Repository Requirements](new-repositories.md)
 
 ### I need to understand support expectations
 
 See:
 
-[Support Models](../governance/support-models.md)
+[Support Models](support-models.md)
 
 ### I think a repository should be retired
 
