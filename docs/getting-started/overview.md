@@ -147,7 +147,7 @@ Then determine:
 
 See:
 
-[Private-to-Public Transition](private-to-public.md)
+[Private-to-Public Transition](../../publishing/private-to-public.md)
 
 ### I am creating a new repository
 
@@ -165,7 +165,7 @@ See:
 
 See:
 
-[Repository Archive Policy](../retiring/archive-policy.md)
+[Repository Archive Policy]()
 
 ## Need help?
 
