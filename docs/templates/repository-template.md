@@ -84,6 +84,19 @@ If the project later moves into maintenance-only, deprecated, or archived status
 
 See [Support Models](../governance/support-models.md).
 
+### Security
+
+Confirm that the repository is covered by the Dynatrace organization-level `SECURITY.md`.
+
+A repository-specific `SECURITY.md` is only needed when the project requires additional or different security guidance, such as:
+
+- Supported-version information.
+- Project-specific reporting instructions.
+- Additional security contacts.
+- Repository-specific disclosure guidance.
+
+Do not duplicate the organization-level policy unnecessarily.
+
 ### License
 
 Confirm that the repository contains the approved license for the project.
