@@ -13,3 +13,61 @@ A repository-specific `SECURITY.md` may be appropriate when the project needs to
 - Security considerations that are not covered by the organization-level policy.
 
 Repository-specific security guidance should not conflict with the organization-level policy.
+
+## Ownership
+
+Security responsibilities must have a clear owner.
+
+Maintainers should know:
+
+- Who receives vulnerability reports.
+- Who evaluates severity.
+- Who coordinates remediation.
+- Who manages disclosure.
+- Who should be contacted when the owning team cannot resolve an issue.
+
+## Secrets
+
+Repositories must not contain:
+
+- API keys.
+- Passwords.
+- Private certificates.
+- Authentication tokens.
+- Production credentials.
+- Private customer information.
+
+Secret scanning should be enabled where available.
+
+If a secret is exposed:
+
+1. Revoke or rotate it immediately.
+2. Follow applicable incident-response procedures.
+3. Remove it from the repository where appropriate.
+4. Do not assume deleting the file removes the exposure.
+
+## Branch protection
+
+Important branches should use appropriate protections or repository rulesets.
+
+Depending on the repository, these may include:
+
+- Pull request review.
+- Required status checks.
+- Restricted force pushes.
+- Restricted branch deletion.
+- Signed commits where justified.
+- CODEOWNERS review.
+
+Controls should reflect the project's risk rather than being added solely for compliance.
+
+## GitHub Actions
+
+Review workflow permissions.
+
+Use least privilege for `GITHUB_TOKEN` and other credentials.
+
+Avoid unnecessary:
+
+```yaml
+permissions: write-all
