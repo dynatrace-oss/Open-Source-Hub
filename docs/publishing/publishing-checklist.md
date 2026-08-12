@@ -37,7 +37,6 @@ Use this checklist before making a repository publicly accessible.
 - [ ] Getting-started instructions exist.
 - [ ] CONTRIBUTING.md exists where contributions are accepted.
 - [ ] CODE_OF_CONDUCT.md exists where appropriate.
-- [ ] SECURITY.md exists.
 - [ ] LICENSE exists.
 - [ ] Known limitations are documented where appropriate.
 
@@ -59,6 +58,8 @@ Use this checklist before making a repository publicly accessible.
 - [ ] Build and test automation exists where appropriate.
 - [ ] Security scanning is configured where appropriate.
 - [ ] OpenSSF Scorecard findings have been reviewed where applicable.
+- [ ] Repository-specific `SECURITY.md` has been added if additional guidance is required.
+
 
 ## Public presentation
 
@@ -67,7 +68,6 @@ Use this checklist before making a repository publicly accessible.
 - [ ] Relevant topics are configured.
 - [ ] Documentation links are valid.
 - [ ] Support information is easy to find.
-- [ ] Security reporting information is easy to find.
 - [ ] Required communication has been prepared.
 
 ## Final review
