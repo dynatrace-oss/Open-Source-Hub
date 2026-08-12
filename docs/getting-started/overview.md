@@ -159,13 +159,13 @@ See:
 
 See:
 
-[Support Models](../governance/support-models.md)
+[Support Models](../../governance/support-models.md)
 
 ### I think a repository should be retired
 
 See:
 
-[Repository Archive Policy](../retiring/archive-policy.md)
+[Repository Archive Policy](../../retiring/archive-policy.md)
 ## Need help?
 
 If you are unsure which path applies, open an Open Source Hub request before creating or publishing the repository.
