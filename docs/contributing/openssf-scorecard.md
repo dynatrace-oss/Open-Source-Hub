@@ -149,7 +149,7 @@ Consider reviewing Scorecard results:
 
 ## Related guidance
 
-- [Repository Health](repository-health.md)
-- [Security Readiness](./security-readiness.md)
-- [Dependency Management](./dependency-management.md)
-- [Maintainer Guide](./maintainer-guide.md)
+- [Repository Health](../repository-health.md)
+- [Security Readiness](../security-readiness.md)
+- [Dependency Management](../dependency-management.md)
+- [Maintainer Guide](../maintainer-guide.md)
