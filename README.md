@@ -46,4 +46,4 @@ Propose → Create → Prepare → Publish → Maintain → Transfer → Archive
 
 ## Need help?
 
-[Open an open source request]
+[[Open an open source request](https://dynatrace.enterprise.slack.com/archives/CJGELHH5E)]
