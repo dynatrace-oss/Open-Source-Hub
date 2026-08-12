@@ -1,0 +1,58 @@
+name: Publish existing repository
+description: Request review of a private repository before public release.
+title: "[Publish Repository]: "
+labels:
+  - open-source
+  - publishing-review
+
+body:
+  - type: input
+    id: repository
+    attributes:
+      label: Repository
+      description: Provide the repository URL or owner/name.
+    validations:
+      required: true
+
+  - type: input
+    id: owner
+    attributes:
+      label: Owning team
+    validations:
+      required: true
+
+  - type: input
+    id: maintainer
+    attributes:
+      label: Primary maintainer
+    validations:
+      required: true
+
+  - type: dropdown
+    id: support
+    attributes:
+      label: Support model
+      options:
+        - Officially supported
+        - Community-supported
+        - Experimental
+        - Not sure
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: readiness
+    attributes:
+      label: Initial readiness
+      options:
+        - label: README is ready for external users.
+        - label: License has been selected.
+        - label: Repository history has been reviewed for secrets and confidential information.
+        - label: SECURITY.md is present.
+        - label: CODEOWNERS or ownership information is configured.
+        - label: Support expectations are documented.
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional context
