@@ -90,18 +90,6 @@ Confirm that the repository contains the approved license for the project.
 
 Do not assume the default template license is appropriate for every project.
 
-### Security
-
-Review and customize `SECURITY.md`.
-
-Ensure that:
-
-- The approved vulnerability reporting channel is listed.
-- Security reports are not directed to public GitHub Issues.
-- Version-specific support information is accurate where applicable.
-
-See [Security Guidance](../templates/security-template.md).
-
 ### Contribution guidance
 
 Update `CONTRIBUTING.md` to reflect the actual contribution workflow.
