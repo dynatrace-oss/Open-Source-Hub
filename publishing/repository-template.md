@@ -59,7 +59,7 @@ Update the README to describe:
 - Security reporting pathway.
 - License.
 
-See [README Requirements](readme-template.md).
+See [README Requirements](../templates/readme-template.md).
 
 ### Ownership
 
