@@ -153,20 +153,19 @@ See:
 
 See:
 
-[New Repository Requirements](new-repositories.md)
+[New Repository Requirements](../../publishing/new-repositories.md)
 
 ### I need to understand support expectations
 
 See:
 
-[Support Models](support-models.md)
+[Support Models](../governance/support-models.md)
 
 ### I think a repository should be retired
 
 See:
 
-[Repository Archive Policy]()
-
+[Repository Archive Policy](../retiring/archive-policy.md)
 ## Need help?
 
 If you are unsure which path applies, open an Open Source Hub request before creating or publishing the repository.
