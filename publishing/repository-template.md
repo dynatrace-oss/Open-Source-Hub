@@ -22,7 +22,7 @@ If a repository already exists, do not recreate it solely to use the template. I
 See:
 
 - [New Repository Requirements](new-repositories.md)
-- [Private-to-Public Transition](publishing/private-to-public.md)
+- [Private-to-Public Transition](private-to-public.md)
 - [Publishing Checklist](publishing-checklist.md)
 
 ## What the template is intended to provide
