@@ -1,0 +1,56 @@
+name: Repository lifecycle review
+description: Request review of an existing public repository.
+title: "[Lifecycle Review]: "
+labels:
+  - open-source
+  - lifecycle-review
+
+body:
+  - type: input
+    id: repository
+    attributes:
+      label: Repository
+    validations:
+      required: true
+
+  - type: dropdown
+    id: reason
+    attributes:
+      label: Reason for review
+      options:
+        - Inactive repository
+        - Maintainer change
+        - Product retirement
+        - Project replacement
+        - Upstream migration
+        - Support-model change
+        - Archive request
+        - Transfer request
+        - Deletion request
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Explain why lifecycle review is needed.
+    validations:
+      required: true
+
+  - type: input
+    id: owner
+    attributes:
+      label: Current owning team
+
+  - type: input
+    id: replacement
+    attributes:
+      label: Replacement or successor project
+      description: Leave blank if none.
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Known users or dependencies
