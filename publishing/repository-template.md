@@ -6,7 +6,7 @@ Use the existing repository template when creating a new repository that is inte
 
 > **Template:** Replace the link below with the location of the approved Dynatrace repository template.
 >
-> [Use the Dynatrace Repository Template]((https://github.com/dynatrace-oss/oss-repository-template))
+> [[Use the Dynatrace Repository Template]](https://github.com/dynatrace-oss/oss-repository-template)
 
 ## When to use the template
 
