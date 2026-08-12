@@ -1,0 +1,93 @@
+name: New public repository
+description: Request creation of a new Dynatrace public open source repository.
+title: "[New Repository]: "
+labels:
+  - open-source
+  - repository-request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to request a new public repository.
+
+        Please review the Open Source Hub guidance before submitting.
+
+  - type: input
+    id: project-name
+    attributes:
+      label: Proposed repository name
+      placeholder: example-repository
+    validations:
+      required: true
+
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose
+      description: What problem does this project solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: audience
+    attributes:
+      label: Intended audience
+      description: Who is expected to use or contribute to this project?
+    validations:
+      required: true
+
+  - type: input
+    id: owning-team
+    attributes:
+      label: Owning team
+    validations:
+      required: true
+
+  - type: input
+    id: primary-maintainer
+    attributes:
+      label: Primary maintainer
+    validations:
+      required: true
+
+  - type: input
+    id: backup-maintainer
+    attributes:
+      label: Backup maintainer or succession path
+    validations:
+      required: true
+
+  - type: dropdown
+    id: support-model
+    attributes:
+      label: Proposed support model
+      options:
+        - Officially supported
+        - Community-supported
+        - Experimental
+        - Not sure
+    validations:
+      required: true
+
+  - type: input
+    id: license
+    attributes:
+      label: Proposed license
+      placeholder: Apache-2.0
+
+  - type: textarea
+    id: strategic-relationship
+    attributes:
+      label: Product or ecosystem relationship
+      description: Explain how this relates to Dynatrace products, customers, partners, or external ecosystems.
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Existing alternatives
+      description: Could this work live in an existing Dynatrace or upstream repository?
+
+  - type: input
+    id: target-date
+    attributes:
+      label: Target publication date
