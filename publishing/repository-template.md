@@ -167,6 +167,6 @@ Creating a repository from the standard template does **not** automatically make
 
 Before publishing, complete the:
 
-[Publishing Checklist](../../publishing/publishing-checklist.md)
+[Publishing Checklist](publishing-checklist.md)
 
 The owning team remains responsible for the technical content, ownership, support model, security readiness, and long-term maintenance of the repository.
