@@ -1,4 +1,4 @@
-## Repository Transfers
+# Repository Transfers
 
 Repository transfers move an existing repository from one GitHub organization or owner to another.
 
