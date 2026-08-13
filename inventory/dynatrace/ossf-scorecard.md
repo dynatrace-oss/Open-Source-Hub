@@ -1,6 +1,6 @@
 # OSSF Scorecard — Dynatrace Main Org
 
-See [../dynatrace-oss-inventory/ossf-scorecard.md](../dynatrace-oss-inventory/ossf-scorecard.md) for full methodology, live query commands, and check-by-check remediation guide. This file covers estimates specific to the `Dynatrace` org.
+See [Dynatrace OSS Scorecard](../dynatrace-oss/ossf-scorecard.md) for full methodology, live query commands, and check-by-check remediation guide. This file covers estimates specific to the `Dynatrace` org.
 
 ---
 
