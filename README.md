@@ -45,6 +45,7 @@ Use this hub to:
 - [Understand support models](docs/governance/support-models.md)
 - [Understand repository lifecycle status](docs/governance/repository-lifecycle.md)
 - [Review security readiness guidance](docs/maintaining/security-readiness.md)
+- [Customer and partner guidance](docs/getting-started/customer-and-partner-guidance.md)
 
 For security vulnerabilities, follow the reporting process provided by the Dynatrace organization-level security policy or a repository-specific `SECURITY.md`, where one exists.
 
