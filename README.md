@@ -153,7 +153,6 @@ Classification is a lifecycle and investment signal. It does not automatically d
 - [Repository template guidance](docs/templates/repository-template.md)
 - [README template](docs/templates/readme-template.md)
 - [CONTRIBUTING template](docs/templates/contributing-template.md)
-- [Security guidance template](docs/templates/security-template.md)
 - [Support disclaimers](docs/templates/support-disclaimers.md)
 - [Archive notice](docs/templates/archive-notice.md)
 
