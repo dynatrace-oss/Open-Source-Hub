@@ -4,6 +4,8 @@ Welcome to the **Dynatrace Open Source Hub** — the public home for guidance, s
 
 Dynatrace participates in open source as a contributor, maintainer, consumer, and ecosystem partner. This hub is designed to help Dynatrace employees, contributors, customers, and partners understand how to start, contribute to, maintain, and evolve public open source projects.
 
+[Learn how Dynatrace approaches open source →](docs/getting-started/how-dynatrace-approaches-open-source.md)
+
 ---
 
 ## Choose your path
