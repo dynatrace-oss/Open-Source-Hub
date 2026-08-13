@@ -100,3 +100,196 @@ For example:
 
 ```text
 @Dynatrace/example-maintainers
+```
+
+is generally preferable to:
+
+```text
+@individual-user
+```
+
+Team-based ownership can reduce disruption when individuals change roles.
+
+Individual maintainers may still be listed where useful, but the repository should not depend solely on one person's account.
+
+---
+
+## CODEOWNERS
+
+Review `CODEOWNERS` whenever maintainer responsibility changes.
+
+Update entries that reference:
+
+- Former maintainers.
+- Teams that no longer own the project.
+- Individuals who have changed roles.
+- Groups that no longer exist.
+
+Confirm that new owners can actually review the paths assigned to them.
+
+A valid `CODEOWNERS` file should reflect current responsibility, not historical ownership.
+
+---
+
+## Repository permissions
+
+During succession, review:
+
+- Admin access.
+- Maintain access.
+- Write access.
+- GitHub teams.
+- External collaborators.
+- Deploy keys.
+- GitHub Apps.
+- Machine accounts.
+
+Remove access that is no longer needed and grant the minimum permissions required by the new maintainer model.
+
+See [Contributor Access](./contributor-access.md).
+
+---
+
+## Security responsibilities
+
+Maintainer succession should include transfer of security responsibilities.
+
+Confirm that the new maintainer or owning team understands:
+
+- How vulnerabilities are reported.
+- Who receives security reports.
+- How security issues are triaged.
+- Who coordinates remediation.
+- How releases are published.
+- Which credentials or automation are security-sensitive.
+
+Security ownership should not remain with a person who no longer maintains the repository.
+
+---
+
+## Release ownership
+
+If the repository publishes releases, document:
+
+- Who can publish releases.
+- How releases are created.
+- Which automation is involved.
+- Where release credentials are managed.
+- How package publishing works.
+- Any signing or provenance requirements.
+
+Verify that the successor can complete the release process before removing the previous maintainer's access.
+
+---
+
+## Community relationships
+
+Some maintainers hold important relationships with:
+
+- External contributors.
+- Upstream maintainers.
+- Open source foundations.
+- Partner communities.
+- Customers using the project.
+
+Where relevant, include these relationships in the transition.
+
+A maintainer change should not unnecessarily disrupt established community collaboration.
+
+---
+
+## When no successor can be identified
+
+If no qualified or available successor exists, do not leave the repository appearing normally maintained.
+
+The owning team should complete a lifecycle review and consider:
+
+- Recruiting additional maintainers.
+- Moving to community-supported status.
+- Moving to maintenance-only status.
+- Transferring the repository.
+- Deprecating the project.
+- Archiving the repository.
+
+See [Repository Lifecycle](./repository-lifecycle.md).
+
+---
+
+## Abandoned ownership
+
+A repository may be considered at risk when:
+
+- The owning team no longer exists.
+- Named maintainers are inactive.
+- No one can approve pull requests.
+- Security ownership is unclear.
+- Releases can no longer be produced.
+- No team accepts responsibility for the project.
+
+These repositories should be prioritized for lifecycle review.
+
+Inactivity alone should not automatically result in archival, but unresolved ownership is a significant governance concern.
+
+---
+
+## Succession checklist
+
+### Ownership
+
+- [ ] Owning team has been confirmed.
+- [ ] Outgoing maintainer has been identified.
+- [ ] Successor maintainer has been identified.
+- [ ] Backup maintainer or succession path exists.
+- [ ] Support model remains accurate.
+
+### Access
+
+- [ ] New maintainer permissions have been granted.
+- [ ] Former maintainer permissions have been reviewed.
+- [ ] GitHub team membership has been updated.
+- [ ] `CODEOWNERS` has been updated.
+- [ ] External collaborator access has been reviewed.
+
+### Knowledge transfer
+
+- [ ] Repository purpose has been reviewed.
+- [ ] Current roadmap or priorities have been reviewed.
+- [ ] Open issues and pull requests have been reviewed.
+- [ ] Release process has been documented.
+- [ ] Automation has been reviewed.
+- [ ] Dependencies and known technical debt have been reviewed.
+- [ ] Security responsibilities have been transferred.
+- [ ] Relevant upstream or community relationships have been transferred.
+
+### Validation
+
+- [ ] New maintainer can approve or merge pull requests.
+- [ ] New maintainer can manage releases where required.
+- [ ] Required automation still works.
+- [ ] Repository documentation reflects current ownership.
+- [ ] Public repository inventory has been updated.
+
+---
+
+## After succession
+
+After the transition:
+
+- Update maintainer documentation.
+- Update `CODEOWNERS`.
+- Remove obsolete access.
+- Update the public repository inventory.
+- Confirm the repository support model.
+- Monitor the transition for unresolved ownership gaps.
+
+Succession is complete when the repository has sustainable ownership, not simply when GitHub permissions have changed.
+
+---
+
+## Related guidance
+
+- [Repository Lifecycle](./repository-lifecycle.md)
+- [Support Models](./support-models.md)
+- [Contributor Access](./contributor-access.md)
+- [Maintainer Guide](../maintaining/maintainer-guide.md)
+- [Repository Health](../maintaining/repository-health.md)
