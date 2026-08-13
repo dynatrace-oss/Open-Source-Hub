@@ -1,49 +1,56 @@
 # Dynatrace Open Source Hub
 
-Dynatrace participates in open source as a contributor, maintainer,
-consumer, and ecosystem partner.
+Welcome to the **Dynatrace Open Source Hub** — the public home for guidance, standards, and resources that support how Dynatrace works in open source.
 
-This hub provides guidance for Dynatrace teams, contributors,
-customers, and partners working with our public open source projects.
+Dynatrace participates in open source as a contributor, maintainer, consumer, and ecosystem partner. This hub helps employees, contributors, customers, and partners understand how to start, contribute to, maintain, and evolve public open source projects.
 
-## Start here
+---
+
+## Choose your path
 
 ### I work at Dynatrace
-- Start a new open source project
-- Publish an existing repository
-- Contribute to an external project
+
+Use this hub to understand how to:
+
+- [Decide whether a project should be open source](docs/getting-started/should-this-be-open-source.md)
+- [Determine where a repository belongs](docs/getting-started/where-does-my-repo-belong.md)
+- [Create a new public repository](docs/publishing/new-repositories.md)
+- [Publish an existing private repository](docs/publishing/private-to-public.md)
+- [Complete the publishing checklist](docs/publishing/publishing-checklist.md)
+- [Contribute to an external open source project](docs/contributing/employee-contributions.md)
+- [Contribute upstream](docs/contributing/upstream-contributions.md)
 - Transfer a repository
-- Archive a repository
+- [Archive a repository](docs/retiring/archive-policy.md)
 
 ### I want to contribute
-- Find Dynatrace open source projects
-- Read our contribution guidance
-- Learn how projects are supported
+
+Interested in contributing to a Dynatrace open source project?
+
+Start here:
+
+- [External contributor guidance](docs/contributing/external-contributors.md)
+- [Contribution template](docs/templates/contributing-template.md)
+- [Understand project support models](docs/governance/support-models.md)
+- [Explore the public repository inventory](inventory/)
+
+Each repository may have its own contribution requirements, so always review its `README.md` and `CONTRIBUTING.md` before submitting changes.
 
 ### I use a Dynatrace open source project
-- View the project portfolio
-- Understand support models
-- Report a security vulnerability
+
+Use this hub to:
+
+- [Explore Dynatrace public repositories](inventory/)
+- [Understand support models](docs/governance/support-models.md)
+- [Understand repository lifecycle status](docs/governance/repository-lifecycle.md)
+- [Review security guidance](docs/maintaining/security-readiness.md)
+
+For security vulnerabilities, follow the reporting process provided by the Dynatrace organization-level security policy or the repository-specific `SECURITY.md`, where one exists.
+
+---
 
 ## Repository lifecycle
 
-Propose → Create → Prepare → Publish → Maintain → Transfer → Archive
+A public repository should have a clear purpose, owner, support model, and lifecycle.
 
-## Open source projects
-
-- Strategic projects
-- Community-supported projects
-- Experimental projects
-- Maintenance-only projects
-- Archived projects
-
-## Policies and guidance
-
-- Repository lifecycle standard
-- Publishing checklist
-- Security guidance
-- Maintainer guide
-
-## Need help?
-
-[[Open an open source request](https://dynatrace.enterprise.slack.com/archives/CJGELHH5E)]
+```text
+Propose → Create → Prepare → Publish → Maintain → Review → Transfer / Archive
