@@ -12,7 +12,7 @@
 
 This directory provides a structured assessment of every public repository in the `dynatrace-oss` GitHub organization. Each repo is evaluated across 11 dimensions and assigned a classification to guide governance decisions.
 
-> **Note:** The `Dynatrace` main org (289 repos) is tracked separately. See [../dynatrace-main/](../dynatrace-main/) if that directory exists alongside this one.
+> **Note:** The `Dynatrace` main org (289 repos) is tracked separately. See [Dynatrace Main Org Inventory](../dynatrace/) if that directory exists alongside this one.
 
 ---
 
