@@ -148,6 +148,11 @@ Classification is a lifecycle and investment signal. It does not automatically d
 - [Archive checklist](docs/retiring/archive-checklist.md)
 - [Deletion policy](docs/retiring/deletion-policy.md)
 
+### Support and security
+
+- [Officially supported and community-supported projects](docs/governance/support-models.md)
+- [Security readiness and vulnerability disclosure](docs/maintaining/security-readiness.md)
+
 ### Templates
 
 - [Repository template guidance](docs/templates/repository-template.md)
