@@ -61,6 +61,28 @@ Depending on the repository, these may include:
 
 Controls should reflect the project's risk rather than being added solely for compliance.
 
+## Security disclosures
+
+Security vulnerabilities should be reported through the private disclosure process defined by the Dynatrace organization-level `SECURITY.md`.
+
+Do not report suspected vulnerabilities through:
+
+- Public GitHub Issues.
+- Pull requests.
+- GitHub Discussions.
+- Other public repository channels.
+
+Repositories should rely on the organization-level security policy unless project-specific security guidance is required.
+
+A repository-specific `SECURITY.md` may be added when a project needs to document:
+
+- Supported versions.
+- Project-specific reporting instructions.
+- Additional security contacts.
+- Repository-specific disclosure expectations.
+
+Repository-specific guidance must not conflict with the organization-level security policy.
+
 ## GitHub Actions
 
 Review workflow permissions.
