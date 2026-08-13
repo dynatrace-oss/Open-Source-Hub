@@ -6,7 +6,7 @@
 **Inventory Date:** August 13, 2026  
 **Maintainer:** *(your team name here)*
 
-> For the `dynatrace-oss` org inventory, see [../dynatrace-oss-inventory/](../dynatrace-oss-inventory/).
+> For the `dynatrace-oss` org inventory, see [Dynatrace OSS Inventory](../dynatrace-oss/).
 
 ---
 
