@@ -1,5 +1,5 @@
 # Maintainer Guide
-
+![Ownership and governance responsibilities for public repositories](../../assets/images/ownership-governance.png)
 Maintainers are responsible for the ongoing health, usability, and sustainability of a Dynatrace public repository.
 
 Maintainer responsibility includes more than reviewing pull requests. Maintainers are expected to keep the repository understandable, secure, current, and aligned with its documented support model.
