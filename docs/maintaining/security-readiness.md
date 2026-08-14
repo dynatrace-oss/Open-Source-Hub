@@ -1,5 +1,5 @@
 ## Security policy
-
+![Private security disclosure and remediation flow](../../assets/images/security-disclosure-flow.png)
 Dynatrace provides a centralized `SECURITY.md` at the organization `.github` level for public repositories.
 
 Repositories should rely on the organization-level security policy unless they require repository-specific security guidance.
