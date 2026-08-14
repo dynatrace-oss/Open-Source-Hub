@@ -1,5 +1,5 @@
 # Contributor Access
-
+![Contributor access levels and least-privilege model](../../assets/images/contributor-access-levels.png)
 Public repositories should follow least-privilege principles when granting GitHub access.
 
 Most contributors do not need direct write access to participate in a Dynatrace open source project. External and internal contributors should generally contribute through issues, forks, branches, and pull requests.
