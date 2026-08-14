@@ -1,5 +1,6 @@
 # Repository Transfers
 
+![Repository lifecycle and transfer context](../../assets/images/repository-lifecycle.png)
 Repository transfers move an existing repository from one GitHub organization or owner to another.
 
 A transfer should be treated as a lifecycle and ownership decision, not simply an administrative GitHub action.
