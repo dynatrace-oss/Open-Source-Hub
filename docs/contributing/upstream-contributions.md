@@ -1,5 +1,5 @@
 # Upstream Contributions
-
+![Contribution flow from repository changes to upstream ecosystem collaboration](../../assets/images/upstream-contributions.png)
 Dynatrace should contribute improvements to upstream open source projects whenever doing so is practical and beneficial to the broader ecosystem.
 
 Upstream contribution reduces unnecessary forks, improves interoperability, distributes maintenance responsibility, and helps ensure Dynatrace participates as a contributor rather than only as a consumer of open source.
