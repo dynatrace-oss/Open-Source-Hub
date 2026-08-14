@@ -1,5 +1,5 @@
 # Repository Lifecycle
-
+![Dynatrace public repository lifecycle from proposal through transfer or archival](../../assets/images/repository-lifecycle.png)
 Dynatrace public repositories should follow a deliberate lifecycle from proposal through retirement.
 
 The lifecycle exists to make open sourcing easier while ensuring that public repositories remain understandable, owned, secure, and sustainable.
