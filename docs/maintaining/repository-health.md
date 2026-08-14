@@ -1,5 +1,5 @@
 # Repository Health
-
+![Repository health dimensions including ownership, security, documentation, automation, and support](../../assets/images/repository-health.png)
 Repository health is the ongoing condition of a project's ownership, maintenance, security, documentation, automation, and community activity.
 
 Repository health should be evaluated as a combination of signals rather than a single activity metric.
