@@ -1,3 +1,4 @@
+![Requirements for creating a new Dynatrace public repository](../../assets/images/new-repository-requirements.png)
 # New Public Repository Requirements
 
 New repositories intended for public release should be designed for public operation from the beginning.
