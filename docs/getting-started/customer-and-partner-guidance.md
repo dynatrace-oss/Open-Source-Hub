@@ -245,7 +245,7 @@ The preferred model should reflect where the project can receive the strongest a
 ---
 
 ## Support versus contribution
-
+![Guidance for choosing between Dynatrace Support, GitHub contribution, and upstream collaboration](../../assets/images/customer-partner-support-flow.png)
 Support and contribution are different activities.
 
 ### Use support when
