@@ -1,11 +1,12 @@
 ## OpenSSF Scorecard
 
-
 [OpenSSF Scorecard](https://scorecard.dev/) provides automated checks that help identify software supply-chain security practices in open source repositories.
 
 Dynatrace may use Scorecard results as one input when evaluating repository health and security readiness.
 
 Scorecard results should be treated as **signals for investigation and improvement**, not as a standalone measure of repository quality or security.
+
+![Dynatrace repository transfer workflow](../../assets/images/repository-transfer-workflow.png)
 
 ## What Scorecard evaluates
 
