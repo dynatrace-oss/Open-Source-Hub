@@ -2,6 +2,8 @@
 
 Repositories should be archived when they are no longer actively maintained but their history remains useful.
 
+![Dynatrace repository archival process](../../assets/images/archive-policy.png)
+
 Archiving is generally preferred over deletion when a repository has:
 
 - Users.
