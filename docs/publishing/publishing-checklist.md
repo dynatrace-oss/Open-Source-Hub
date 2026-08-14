@@ -1,5 +1,5 @@
 # Publishing Checklist
-
+![Public repository publishing readiness checklist](../../assets/images/publishing-checklist.png)
 Use this checklist before making a repository publicly accessible.
 
 ## Purpose and ownership
