@@ -10,6 +10,8 @@ This guidance applies to contributions made by Dynatrace employees to:
 - Upstream dependencies used by Dynatrace.
 - Open source projects where Dynatrace participates as a contributor or maintainer.
 
+![Decision path for Dynatrace employee open source contributions](../../assets/images/employee-contribution-decision-path.png)
+
 ## Before contributing
 
 Before making a contribution, determine:
