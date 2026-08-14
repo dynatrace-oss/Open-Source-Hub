@@ -8,7 +8,7 @@ A transfer should be treated as a lifecycle and ownership decision, not simply a
 Before transferring a public repository, confirm that the destination organization is appropriate for the project, ownership is clear, support expectations are understood, and the transfer will not create unnecessary disruption for users, contributors, automation, or downstream dependencies.
 
 ---
-
+![Dynatrace repository transfer workflow](../../assets/images/repository-transfer-workflow.png)
 ## When a transfer may be appropriate
 
 A repository may need to be transferred when:
