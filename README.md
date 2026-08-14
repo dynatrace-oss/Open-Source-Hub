@@ -1,3 +1,5 @@
+![Dynatrace Open Source Hub](assets/images/open-source-hub-banner.png)
+
 # Dynatrace Open Source Hub
 
 Welcome to the **Dynatrace Open Source Hub** — the public home for guidance, standards, resources, and repository information that support how Dynatrace works in open source.
