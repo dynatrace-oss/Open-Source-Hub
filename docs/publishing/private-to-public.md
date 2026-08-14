@@ -3,7 +3,7 @@
 Changing an existing repository from private to public requires a publication readiness review.
 
 The review must consider the entire repository history, not only the current branch.
-
+![Private-to-public repository readiness process](../../assets/images/private-to-public-readiness.png)
 ## 1. Confirm purpose and ownership
 
 Verify:
