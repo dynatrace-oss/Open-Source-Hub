@@ -4,6 +4,8 @@ Dynatrace welcomes contributions from external developers, users, partners, cust
 
 Each public repository should clearly explain how contributions are accepted and what contributors can expect from maintainers.
 
+![External contributor workflow for Dynatrace open source projects](../../assets/images/external-contribution-flow.png)
+
 ## Contribution expectations
 
 External contributors should follow the repository's:
