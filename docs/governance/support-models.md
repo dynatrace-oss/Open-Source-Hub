@@ -1,3 +1,4 @@
+![Dynatrace open source support models](../../assets/images/support-models.png)
 # Support Models
 
 Dynatrace public repositories should clearly communicate what level of support users and contributors can expect.
