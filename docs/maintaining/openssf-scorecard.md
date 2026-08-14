@@ -6,7 +6,7 @@ Dynatrace may use Scorecard results as one input when evaluating repository heal
 
 Scorecard results should be treated as **signals for investigation and improvement**, not as a standalone measure of repository quality or security.
 
-![Dynatrace repository transfer workflow](../../assets/images/repository-transfer-workflow.png)
+![How Dynatrace uses OpenSSF Scorecard findings](../../assets/images/openssf-scorecard.png)
 
 ## What Scorecard evaluates
 
