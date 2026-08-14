@@ -2,7 +2,7 @@
 
 Use this template as a baseline. Remove sections that genuinely do not apply rather than leaving empty headings.
 
----
+![Anatomy of a good public repository README](../../assets/images/readme-anatomy.png)
 
 # Project Name
 
