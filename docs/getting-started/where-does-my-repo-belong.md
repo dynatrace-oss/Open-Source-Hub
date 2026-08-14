@@ -3,8 +3,9 @@
 Choosing the correct repository location helps users understand who owns a project, how it is supported, and what relationship it has to Dynatrace.
 
 Repository placement should be based on the project's **purpose, ownership, support model, and long-term role** rather than convenience or historical convention.
-
 ## Start with the most important question
+
+![Decision tree for determining where a Dynatrace open source repository belongs](../../assets/images/where-does-my-repo-belong.png)
 
 ### Is this repository intended to be public?
 
