@@ -5,7 +5,7 @@ New repositories intended for public release should be designed for public opera
 
 ## Before creating the repository
 
-Document:
+Have the following information ready:
 
 ### Project purpose
 
