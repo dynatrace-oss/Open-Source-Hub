@@ -1,5 +1,5 @@
 # Repository Deletion Policy
-
+![Decision guide for transferring, archiving, or deleting a repository](../../assets/images/archive-transfer-delete.png)
 Repository deletion is a permanent action and should be used more cautiously than archival.
 
 Dynatrace public repositories should generally be **archived rather than deleted** when they contain meaningful project history, releases, contributors, users, or documentation value.
