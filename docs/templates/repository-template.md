@@ -25,6 +25,8 @@ See:
 - [Private-to-Public Transition](../publishing/private-to-public.md)
 - [Publishing Checklist](../publishing/publishing-checklist.md)
 
+![Contents of the Dynatrace public repository template](../../assets/images/repository-template-contents.png)
+
 ## What the template is intended to provide
 
 The template should establish a consistent starting point for public repositories, including the files and configuration needed to support:
