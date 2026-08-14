@@ -9,7 +9,7 @@ Dynatrace participates in open source as a contributor, maintainer, consumer, an
 [Learn how Dynatrace approaches open source →](docs/getting-started/how-dynatrace-approaches-open-source.md)
 
 ---
-
+![Choose your path through the Dynatrace Open Source Hub](assets/images/choose-your-path.png)
 ## Choose your path
 
 ### I work at Dynatrace
@@ -217,7 +217,7 @@ Individual repositories remain owned by the teams responsible for the projects t
 The Open Source team provides the framework, guidance, coordination, and governance that help those projects operate effectively in public.
 
 ---
-
+![Dynatrace open source ownership and governance model](assets/images/ownership-governance.png)
 ## Who owns what?
 
 ### Project teams
