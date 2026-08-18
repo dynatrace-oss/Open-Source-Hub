@@ -16,10 +16,10 @@ These repositories are functional and still receiving occasional attention, but 
 | **Support Model** | Community |
 | **Activity Level** | 🟠 Low — periodic maintenance |
 | **Documentation Status** | 🟡 Basic README |
-| **License Status** | ⚠️ **No explicit license file** — violates org default of Apache 2.0; must be corrected |
+| **License Status** | ✅ Apache 2.0 — declared in gemspec (`s.licenses = ['Apache-2.0']`); recognized by GitHub |
 | **Security Readiness** | Low risk; Ruby gem |
-| **OSSF Scorecard (estimated)** | 3–5 / 10 — license gap lowers score |
-| **Recommended Disposition** | 🟠 **Maintenance-Only** — add Apache 2.0 license file immediately; evaluate against OTel log forwarding alternatives; archive within 12 months if OTel supersedes |
+| **OSSF Scorecard (estimated)** | 4–6 / 10 |
+| **Recommended Disposition** | 🟠 **Maintenance-Only** — evaluate against OTel log forwarding alternatives; archive within 12 months if OTel supersedes |
 
 ---
 
