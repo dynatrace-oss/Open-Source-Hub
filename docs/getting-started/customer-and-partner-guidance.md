@@ -400,6 +400,6 @@ Start with the guidance in this hub or contact the Dynatrace Open Source team th
 - [External Contributors](../contributing/external-contributors.md)
 - [Upstream Contributions](../contributing/upstream-contributions.md)
 - [Contributor Access](../governance/contributor-access.md)
-- [Repository Transfers](./publishing/repository-transfers.md)
+- [Repository Transfers](../../publishing/repository-transfers.md)
 - [Repository Lifecycle](../governance/repository-lifecycle.md)
 - [Security Readiness](../maintaining/security-readiness.md)
