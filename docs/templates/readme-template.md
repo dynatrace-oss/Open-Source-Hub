@@ -69,7 +69,7 @@ For community-supported projects:
 
 Contributions are welcome.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md).
+See `CONTRIBUTING.md`.
 
 If contributions are not currently accepted, state that clearly instead.
 
@@ -77,7 +77,7 @@ If contributions are not currently accepted, state that clearly instead.
 
 Do not report security vulnerabilities through public GitHub Issues.
 
-See [SECURITY.md](SECURITY.md).
+See `SECURITY.md`.
 
 ## Maintainers
 
@@ -89,4 +89,4 @@ Prefer team ownership where possible.
 
 ## License
 
-Licensed under the terms described in [LICENSE](LICENSE).
+Licensed under the terms described in `LICENSE`.
