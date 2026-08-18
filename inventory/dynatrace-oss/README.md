@@ -42,7 +42,6 @@ dynatrace-oss-inventory/
 │   ├── archive-candidates.md        ← Archive candidates
 │   └── transfer-deletion.md         ← Transfer or deletion candidates
 ├── ossf-scorecard.md                ← OSSF Scorecard estimates + how to get live scores
-└── recommendations.md               ← Priority actions across the full portfolio
 ```
 
 ---
