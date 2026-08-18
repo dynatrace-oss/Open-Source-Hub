@@ -96,7 +96,7 @@ Scores are estimated based on observable signals. Confidence is noted where sign
 | `dt-evals` | **3–5** | Low | TypeScript, Apache 2.0 | Early-stage; many open issues |
 | `eBPF-Discovery` | **5–7** | Medium | C++, Apache 2.0 | Kernel module — highest risk surface |
 | `kimera` | **3–5** | Low | Apache 2.0 | Exploitation toolkit — responsible use policy missing |
-| `logstash-output-dynatrace` | **3–5** | High | Ruby plugin | **No license file** — automatic low score |
+| `logstash-output-dynatrace` | **4–6** | Medium | Apache 2.0 (gemspec), Ruby plugin | No SECURITY.md; low activity |
 | `CustomerSuccess` | **4–5** | Low | Apache 2.0 | Mixed content types; limited CI signals |
 | `forge` | **2–4** | Low | Apache 2.0 | Very new; no description; limited signals |
 
@@ -129,7 +129,7 @@ Scores are estimated based on observable signals. Confidence is noted where sign
 ### Immediate (all repos, 1 week)
 1. Add `SECURITY.md` to every Strategic and Active repo — this alone closes the Security-Policy check
 2. Add `permissions: read-all` to all GitHub Actions workflows — closes Token-Permissions
-3. Fix `logstash-output-dynatrace` missing license — closes License check
+3. Add `SECURITY.md` to `logstash-output-dynatrace` — closes Security-Policy check
 
 ### Short Term (1 month)
 4. Add Dependabot config (`.github/dependabot.yml`) to Strategic repos — closes Dependency-Update-Tool
