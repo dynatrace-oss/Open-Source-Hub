@@ -11,6 +11,26 @@ Dynatrace participates in open source as a contributor, maintainer, consumer, an
 ---
 ## Choose your path
 ![Choose your path through the Dynatrace Open Source Hub](assets/images/choose-your-path.png)
+
+## Have an open source project idea?
+
+Not sure whether your project should be open source, where it should live, or what support model applies?
+
+Use the **Open Source Project Advisor** in Claude for a guided assessment.
+
+The advisor can help you:
+
+- Determine whether open source is the right approach.
+- Evaluate whether the work belongs upstream.
+- Recommend `Dynatrace`, `dynatrace-oss`, or another home.
+- Determine the appropriate support model.
+- Identify publication-readiness gaps.
+- Prepare the information needed for a repository creation request.
+
+**[Open the Open Source Project Advisor in Claude](ADD-CLAUDE-PROJECT-LINK)**
+
+> The advisor provides guidance but does not approve or create repositories. Repository creation remains a governed process.
+
 ### I work at Dynatrace
 
 Use this hub to understand how to:
