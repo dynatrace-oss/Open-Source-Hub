@@ -52,10 +52,9 @@ Example:
 > **Archived — August 2026**
 >
 > This project is no longer actively maintained.
+> Development has moved to `[Project Name](REPLACEMENT_REPOSITORY_URL)`.
 >
-> Development has moved to [Project Name](https://github.com/example/project).
->
-> Existing users should review the [migration guide](LINK-TO-MIGRATION-GUIDE).
+> Existing users should review the `[migration guide](MIGRATION_GUIDE_URL)`.
 >
 > This repository remains available for historical reference.
 
