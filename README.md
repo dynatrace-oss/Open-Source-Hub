@@ -27,7 +27,7 @@ The advisor can help you:
 - Identify publication-readiness gaps.
 - Prepare the information needed for a repository creation request.
 
-**[Open the Open Source Project Advisor in Claude](ADD-CLAUDE-PROJECT-LINK)**
+**[Open the Open Source Project Advisor in Claude](https://claude.ai/project/01a015ec-48ad-7651-a086-d2f0da82112f)**
 
 > The advisor provides guidance but does not approve or create repositories. Repository creation remains a governed process.
 
