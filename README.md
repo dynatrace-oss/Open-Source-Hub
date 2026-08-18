@@ -22,7 +22,7 @@ Use this hub to understand how to:
 - [Complete the publishing checklist](docs/publishing/publishing-checklist.md)
 - [Contribute to an external open source project](docs/contributing/employee-contributions.md)
 - [Contribute upstream](docs/contributing/upstream-contributions.md)
-- [Transfer a repository](docs/publishing/Repository-Transfers.md)
+- [Transfer a repository](docs/publishing/repository-transfers.md)
 - [Archive a repository](docs/retiring/archive-policy.md)
 - [Delete a repository](docs/retiring/deletion-policy.md)
 
