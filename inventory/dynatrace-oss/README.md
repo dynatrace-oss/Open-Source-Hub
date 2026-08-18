@@ -93,4 +93,4 @@ Each repository is assessed across:
 
 ---
 
-*Inventory maintained by *(@open-source-team)*.
+*Inventory maintained by *(@Dynatrace/open-source-team)*.
