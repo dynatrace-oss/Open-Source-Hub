@@ -59,7 +59,8 @@ When reporting a bug, include where possible:
 
 Do **not** use public GitHub Issues to report security vulnerabilities.
 
-See [`SECURITY.md`](SECURITY.md) for the appropriate security reporting process.
+See `SECURITY.md` for the appropriate security reporting process.
+Follow the reporting process documented in `SECURITY.md`.
 
 ## Proposing larger changes
 
