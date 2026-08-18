@@ -93,4 +93,4 @@ Each repository is assessed across:
 
 ---
 
-*Inventory maintained by *(your team)*. To update, follow the process in [recommendations.md](recommendations.md).*
+*Inventory maintained by *(@open-source-team)*.
