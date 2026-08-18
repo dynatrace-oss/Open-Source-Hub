@@ -223,7 +223,7 @@ Before a transfer is accepted, Dynatrace should review:
 - Current support expectations.
 - Long-term maintenance requirements.
 
-See [Repository Transfers](../publishing/repository-transfers.md).
+See [Repository Transfers](../publishing/Repository-Transfers.md).
 
 ---
 
