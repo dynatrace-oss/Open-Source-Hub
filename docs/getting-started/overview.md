@@ -147,25 +147,25 @@ Then determine:
 
 See:
 
-[Private-to-Public Transition](../../publishing/private-to-public.md)
+[Private-to-Public Transition](../publishing/private-to-public.md)
 
 ### I am creating a new repository
 
 See:
 
-[New Repository Requirements](../../publishing/new-repositories.md)
+[New Repository Requirements](../publishing/new-repositories.md)
 
 ### I need to understand support expectations
 
 See:
 
-[Support Models](../../governance/support-models.md)
+[Support Models](../governance/support-models.md)
 
 ### I think a repository should be retired
 
 See:
 
-[Repository Archive Policy](../../retiring/archive-policy.md)
+[Repository Archive Policy](../retiring/archive-policy.md)
 ## Need help?
 
 If you are unsure which path applies, open an Open Source Hub request before creating or publishing the repository.
