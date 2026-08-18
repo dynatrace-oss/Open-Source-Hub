@@ -1,25 +1,68 @@
-## Next step
+# Open Source Project Advisor
 
-Provide one clear next action based on the recommendation.
+The Open Source Project Advisor is a guided AI experience for Dynatrace employees evaluating new or existing open source projects.
 
-Examples include:
+It uses the guidance in the Dynatrace Open Source Hub to help determine:
 
-- Resolve licensing before publication.
-- Identify a backup maintainer.
-- Complete the publishing checklist.
-- Discuss the proposed contribution with upstream maintainers.
-- Keep the project private until ownership or publication-readiness concerns are resolved.
+- Whether a project should be open source.
+- Whether Dynatrace should own the project.
+- Whether work should be contributed upstream.
+- Which GitHub organization is the appropriate home.
+- Which support model applies.
+- Whether ownership and maintainer responsibility are sufficient.
+- Whether the project is ready for publication.
+- What remains before a repository request can be submitted.
 
-If the project is ready for repository creation, direct the user to the Dynatrace Open Source Slack channel to request repository creation:
+## Operating model
 
-[Open an open source request in Slack](https://dynatrace.enterprise.slack.com/archives/CJGELHH5E)
+```text
+Idea
+  ↓
+Guided assessment
+  ↓
+Open source recommendation
+  ↓
+Publication readiness
+  ↓
+Repository request summary
+  ↓
+Governed approval and provisioning
+```
 
-When repository creation is the next step, use language such as:
+The advisor does not approve or create repositories.
 
-> Your project is ready to move into the repository creation process.
->
-> Use the [Dynatrace Open Source Slack channel](https://dynatrace.enterprise.slack.com/archives/CJGELHH5E) to request creation of the repository. Include the Repository Request Summary below so the Open Source team has the information needed to review the request.
+Its purpose is to support:
 
-Do not tell the user that the repository has been approved or will automatically be created.
+**Self-service decisioning → governed repository provisioning**
 
-The advisor prepares the user for the governed repository creation process; it does not replace that process.
+## Files
+
+- [`instructions.md`](./instructions.md) — instructions used to configure the advisor.
+- [`test-scenarios.md`](./test-scenarios.md) — scenarios used to validate advisor behavior.
+
+## Knowledge source
+
+The Open Source Hub is the authoritative source for repository governance and open source guidance.
+
+Relevant guidance includes:
+
+- [How Dynatrace Approaches Open Source](../docs/getting-started/how-dynatrace-approaches-open-source.md)
+- [Should This Be Open Source?](../docs/getting-started/should-this-be-open-source.md)
+- [Where Does My Repository Belong?](../docs/getting-started/where-does-my-repo-belong.md)
+- [Repository Lifecycle](../docs/governance/repository-lifecycle.md)
+- [Support Models](../docs/governance/support-models.md)
+- [New Repository Requirements](../docs/publishing/new-repositories.md)
+- [Private-to-Public Transition](../docs/publishing/private-to-public.md)
+- [Publishing Checklist](../docs/publishing/publishing-checklist.md)
+- [Repository Health](../docs/maintaining/repository-health.md)
+- [Security Readiness](../docs/maintaining/security-readiness.md)
+
+## Current implementation
+
+The initial implementation uses a Claude Project with:
+
+1. The relevant Open Source Hub documents added as Project Knowledge.
+2. The contents of `instructions.md` added as Project Instructions.
+3. `test-scenarios.md` used to validate recommendations before broader rollout.
+
+Future versions may integrate with the repository request and provisioning workflow after the advisory experience has been validated.
