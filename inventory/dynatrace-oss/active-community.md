@@ -229,7 +229,7 @@ These repositories have regular activity, community adoption signals, and ongoin
 | **Activity Level** | 🟡 Moderate |
 | **License Status** | ✅ Apache 2.0 |
 | **OSSF Scorecard (estimated)** | 5–6 / 10 |
-| **Recommended Disposition** | 🔵 **Active / Community-Supported** — evaluate consolidation with `dtctl` |
+| **Recommended Disposition** | 🔵 **Active / Community-Supported** — dtctl and dtmgd should remain separate because:They serve different customer bases (different products),They address different APIs — a single CLI for both would create confusing UX, Maintenance and governance are harder when maintained by different teams `dtctl` |
 
 ---
 
