@@ -63,7 +63,7 @@ These repositories are central to Dynatrace's declared strategic priorities, hav
 | **Security Readiness** | CLI with API credentials; manageable risk surface; credential handling needs documentation |
 | **Dependencies & Automation** | Go modules; distributed via `dynatrace-oss/homebrew-tap` |
 | **OSSF Scorecard (estimated)** | 6–8 / 10 |
-| **Recommended Disposition** | 🟢 **Strategic** — add OSSF Scorecard badge; consider official support path given adoption level, dtctl and dtmgd should remain separate because:They serve different customer bases (different products),They address different APIs — a single CLI for both would create confusing UX, Maintenance and governance are harder when maintained by different teams `dtctl` | |
+| **Recommended Disposition** | 🟢 **Strategic** — add OSSF Scorecard badge; consider official support path given adoption level, dtctl and dtmgd should remain separate because:They serve different customer bases (different products),They address different APIs — a single CLI for both would create confusing UX, Maintenance and governance are harder when maintained by different teams `dtmgd` | |
 
 ---
 
