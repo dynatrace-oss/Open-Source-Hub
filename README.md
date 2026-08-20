@@ -9,6 +9,7 @@ Dynatrace participates in open source as a contributor, maintainer, consumer, an
 [Learn how Dynatrace approaches open source →](docs/getting-started/how-dynatrace-approaches-open-source.md)
 
 ---
+
 ## Choose your path
 
 ![Choose your path through the Dynatrace Open Source Hub](assets/images/choose-your-path.png)
