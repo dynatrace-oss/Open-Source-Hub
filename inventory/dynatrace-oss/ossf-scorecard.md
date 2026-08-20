@@ -9,16 +9,17 @@
 ## How to Get Live Scores
 
 ### Single Repo (CLI)
+
 ```bash
 # Install
 brew install scorecard   # macOS
 # or: go install sigs.k8s.io/scorecard/v4@latest
-
 export GITHUB_AUTH_TOKEN=<your_pat>
 scorecard --repo=github.com/dynatrace-oss/dynatrace-mcp --format=json | jq '{score: .score, checks: [.checks[] | {name: .name, score: .score}]}'
 ```
 
 ### All dynatrace-oss Public Repos (Batch)
+
 ```bash
 gh api /orgs/dynatrace-oss/repos --paginate \
   | jq -r '.[] | select(.archived == false) | .full_name' \
@@ -28,6 +29,7 @@ gh api /orgs/dynatrace-oss/repos --paginate \
 ```
 
 ### REST API (No Token Required for Public Repos)
+
 ```bash
 curl -s "https://api.securityscorecards.dev/projects/github.com/dynatrace-oss/dynatrace-mcp" | jq '{score: .score, date: .date}'
 ```
