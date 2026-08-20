@@ -5,7 +5,9 @@ Dynatrace participates in open source as a contributor, maintainer, consumer, an
 The Open Source Hub provides a consistent way to create, publish, maintain, support, and retire public open source repositories managed by Dynatrace.
 
 Its goal is to make open sourcing easier to do well by giving teams clear standards, reusable guidance, and predictable lifecycle expectations.
+
 ![Map of the Dynatrace Open Source Hub guidance areas](../../assets/images/hub-site-map.png)
+
 ## Who this guidance is for
 
 This guidance is intended for:
