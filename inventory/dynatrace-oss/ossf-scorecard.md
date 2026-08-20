@@ -36,6 +36,7 @@ curl -s "https://api.securityscorecards.dev/projects/github.com/dynatrace-oss/dy
 
 ### Add Scorecard as a GitHub Action (Recommended)
 Add this to `.github/workflows/scorecard.yml` in each repo:
+
 ```yaml
 name: Scorecard supply-chain security
 on:
