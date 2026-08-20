@@ -60,7 +60,6 @@ Use this checklist before making a repository publicly accessible.
 - [ ] OpenSSF Scorecard findings have been reviewed where applicable.
 - [ ] Repository-specific `SECURITY.md` has been added if additional guidance is required.
 
-
 ## Public presentation
 
 - [ ] Repository name is appropriate for public use.
