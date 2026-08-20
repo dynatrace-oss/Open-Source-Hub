@@ -1,5 +1,6 @@
-![Dynatrace public repository inventory](../assets/images/repository-inventory.png)
 # Dynatrace Public Repository Inventory
+
+![Dynatrace public repository inventory](../assets/images/repository-inventory.png)
 
 This inventory provides a structured assessment of public repositories across Dynatrace GitHub organizations.
 
