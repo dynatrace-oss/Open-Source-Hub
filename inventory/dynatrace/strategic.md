@@ -5,6 +5,7 @@ These repositories are core to Dynatrace product delivery, declared strategic pr
 ---
 
 ## `dynatrace-operator`
+
 **URL:** https://github.com/Dynatrace/dynatrace-operator  
 **Language:** Go | **License:** Apache 2.0 | **Stars:** 219 ⭐ | **Forks:** 166 | **Open Issues:** 14
 
@@ -25,6 +26,7 @@ These repositories are core to Dynatrace product delivery, declared strategic pr
 ---
 
 ## `dynatrace-configuration-as-code`
+
 **URL:** https://github.com/Dynatrace/dynatrace-configuration-as-code  
 **Language:** Go | **License:** Apache 2.0 | **Stars:** 188 ⭐ | **Forks:** 108 | **Open Issues:** 0
 
@@ -42,6 +44,7 @@ These repositories are core to Dynatrace product delivery, declared strategic pr
 ---
 
 ## `dynatrace-configuration-as-code-core`
+
 **URL:** https://github.com/Dynatrace/dynatrace-configuration-as-code-core  
 **Language:** Go | **License:** Apache 2.0 | **Stars:** 5 ⭐ | **Forks:** 11 | **Open Issues:** 1
 
@@ -57,6 +60,7 @@ These repositories are core to Dynatrace product delivery, declared strategic pr
 ---
 
 ## `dynatrace-otel-collector`
+
 **URL:** https://github.com/Dynatrace/dynatrace-otel-collector  
 **Language:** Go | **License:** Apache 2.0 | **Stars:** 43 ⭐ | **Forks:** 28 | **Open Issues:** 5
 
@@ -72,6 +76,7 @@ These repositories are core to Dynatrace product delivery, declared strategic pr
 ---
 
 ## `dynatrace-bindplane-otel-collector`
+
 **URL:** https://github.com/Dynatrace/dynatrace-bindplane-otel-collector  
 **Language:** Go | **License:** Apache 2.0 | **Stars:** 1 ⭐ | **Forks:** 49 | **Open Issues:** 1
 
@@ -88,6 +93,7 @@ These repositories are core to Dynatrace product delivery, declared strategic pr
 ---
 
 ## `dynatrace-for-ai`
+
 **URL:** https://github.com/Dynatrace/dynatrace-for-ai  
 **Language:** JavaScript | **License:** Apache 2.0 | **Stars:** 120 ⭐ | **Forks:** 26 | **Open Issues:** 4
 
@@ -106,6 +112,7 @@ These repositories are core to Dynatrace product delivery, declared strategic pr
 ---
 
 ## `helm-charts`
+
 **URL:** https://github.com/Dynatrace/helm-charts  
 **Language:** Go Template | **License:** Apache 2.0 | **Stars:** 30 ⭐ | **Forks:** 45 | **Open Issues:** 3
 
@@ -122,6 +129,7 @@ These repositories are core to Dynatrace product delivery, declared strategic pr
 ---
 
 ## `Dynatrace-OneAgent-Ansible`
+
 **URL:** https://github.com/Dynatrace/Dynatrace-OneAgent-Ansible  
 **Language:** Python | **License:** Apache 2.0 | **Stars:** 47 ⭐ | **Forks:** 51 | **Open Issues:** 1
 
@@ -138,6 +146,7 @@ These repositories are core to Dynatrace product delivery, declared strategic pr
 ---
 
 ## `dynatrace-configuration-as-code-samples`
+
 **URL:** https://github.com/Dynatrace/dynatrace-configuration-as-code-samples  
 **Language:** HCL | **License:** Apache 2.0 | **Stars:** 32 ⭐ | **Forks:** 25 | **Open Issues:** 2
 
@@ -154,6 +163,7 @@ These repositories are core to Dynatrace product delivery, declared strategic pr
 ---
 
 ## `backstage-plugin`
+
 **URL:** https://github.com/Dynatrace/backstage-plugin  
 **Language:** TypeScript | **License:** Apache 2.0 | **Stars:** 37 ⭐ | **Forks:** 18 | **Open Issues:** 16
 
@@ -170,6 +180,7 @@ These repositories are core to Dynatrace product delivery, declared strategic pr
 ---
 
 ## `swift-mobile-sdk`
+
 **URL:** https://github.com/Dynatrace/swift-mobile-sdk  
 **Language:** Swift | **License:** Apache 2.0 | **Stars:** 15 ⭐ | **Forks:** 8 | **Open Issues:** 0
 
@@ -185,6 +196,7 @@ These repositories are core to Dynatrace product delivery, declared strategic pr
 ---
 
 ## `dynatrace-bootstrapper`
+
 **URL:** https://github.com/Dynatrace/dynatrace-bootstrapper  
 **Language:** Go | **License:** Apache 2.0 | **Stars:** 3 ⭐ | **Forks:** 11 | **Open Issues:** 3
 
@@ -200,6 +212,7 @@ These repositories are core to Dynatrace product delivery, declared strategic pr
 ---
 
 ## `bosh-oneagent-release`
+
 **URL:** https://github.com/Dynatrace/bosh-oneagent-release  
 **Language:** Ruby | **License:** MIT | **Stars:** 11 ⭐ | **Forks:** 15 | **Open Issues:** 0
 
