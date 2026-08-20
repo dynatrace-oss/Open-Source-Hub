@@ -8,7 +8,7 @@ The advisor should make decisions that are consistent with the Open Source Hub, 
 
 ---
 
-# How to test
+## How to test
 
 For each scenario:
 
@@ -26,7 +26,7 @@ Evaluate both:
 
 ---
 
-# General pass criteria
+## General pass criteria
 
 Across all scenarios, the advisor should:
 
@@ -47,13 +47,13 @@ Across all scenarios, the advisor should:
 
 ---
 
-# Scenario 1 — Unowned hackathon project
+## Scenario 1 — Unowned hackathon project
 
-## Initial prompt
+### Initial prompt
 
 > We built something during a hackathon and I think it would be cool to open source it.
 
-## Additional information if asked
+### Additional information if asked
 
 The project:
 
@@ -65,7 +65,7 @@ The project:
 - Was primarily built by one engineer.
 - Does not have a backup maintainer.
 
-## Expected behavior
+### Expected behavior
 
 The advisor should:
 
@@ -77,7 +77,7 @@ The advisor should:
 - Avoid treating the Open Source team as the maintainer.
 - Recommend resolving sustainable ownership before publication.
 
-## Expected outcome
+### Expected outcome
 
 **Decision:** Not ready for publication or Needs Review.
 
@@ -89,13 +89,13 @@ The advisor should not generate a final repository creation request unless the o
 
 ---
 
-# Scenario 2 — Community ecosystem tool
+## Scenario 2 — Community ecosystem tool
 
-## Initial prompt
+### Initial prompt
 
 > My team built a tool that helps developers send telemetry into OpenTelemetry-compatible systems. We think people outside Dynatrace could use it.
 
-## Additional information if asked
+### Additional information if asked
 
 The project:
 
@@ -108,7 +108,7 @@ The project:
 - Has an approved open source license.
 - Is ready for public documentation.
 
-## Expected behavior
+### Expected behavior
 
 The advisor should:
 
@@ -121,7 +121,7 @@ The advisor should:
 - Produce a repository request summary if requirements are satisfied.
 - Point the user to the Open Source Slack channel.
 
-## Expected outcome
+### Expected outcome
 
 **Decision:** Publish.
 
@@ -133,13 +133,13 @@ The advisor should:
 
 ---
 
-# Scenario 3 — Officially supported product component
+## Scenario 3 — Officially supported product component
 
-## Initial prompt
+### Initial prompt
 
 > We want to publish the source for a component that ships as part of a supported Dynatrace offering.
 
-## Additional information if asked
+### Additional information if asked
 
 The project:
 
@@ -151,7 +151,7 @@ The project:
 - Has documentation and release expectations.
 - Requires public source availability for ecosystem participation.
 
-## Expected behavior
+### Expected behavior
 
 The advisor should:
 
@@ -163,7 +163,7 @@ The advisor should:
 - Produce a repository request summary if ready.
 - Route repository creation through Slack.
 
-## Expected outcome
+### Expected outcome
 
 **Decision:** Publish.
 
@@ -173,13 +173,13 @@ The advisor should:
 
 ---
 
-# Scenario 4 — Strong upstream candidate
+## Scenario 4 — Strong upstream candidate
 
-## Initial prompt
+### Initial prompt
 
 > We added a feature to an open source project we depend on. Should we create a Dynatrace repo for our version?
 
-## Additional information if asked
+### Additional information if asked
 
 The feature:
 
@@ -189,7 +189,7 @@ The feature:
 - Could reasonably be accepted upstream.
 - Does not require a permanent Dynatrace fork.
 
-## Expected behavior
+### Expected behavior
 
 The advisor should:
 
@@ -198,7 +198,7 @@ The advisor should:
 - Recommend reviewing upstream contribution guidance.
 - Suggest engaging upstream maintainers before creating a downstream project.
 
-## Expected outcome
+### Expected outcome
 
 **Decision:** Contribute Upstream.
 
@@ -210,13 +210,13 @@ No repository creation request should be generated.
 
 ---
 
-# Scenario 5 — Existing private repository
+## Scenario 5 — Existing private repository
 
-## Initial prompt
+### Initial prompt
 
 > We already have a private GitHub repository and want to make it public.
 
-## Additional information if asked
+### Additional information if asked
 
 The repository:
 
@@ -228,7 +228,7 @@ The repository:
 - Has not yet undergone a secrets or history review.
 - Has an undecided license.
 
-## Expected behavior
+### Expected behavior
 
 The advisor should:
 
@@ -239,7 +239,7 @@ The advisor should:
 - Avoid recommending immediate publication.
 - Recommend completing the private-to-public process first.
 
-## Expected outcome
+### Expected outcome
 
 **Decision:** Not Ready or Needs Review.
 
@@ -253,13 +253,13 @@ No repository creation request should be generated because the repository alread
 
 ---
 
-# Scenario 6 — Internal-only operational tool
+## Scenario 6 — Internal-only operational tool
 
-## Initial prompt
+### Initial prompt
 
 > We have an internal automation tool that works really well. We'd like to put it on GitHub.
 
-## Additional information if asked
+### Additional information if asked
 
 The tool:
 
@@ -269,7 +269,7 @@ The tool:
 - Is unlikely to receive external contributions.
 - Contains no secrets, but much of the logic is internal-specific.
 
-## Expected behavior
+### Expected behavior
 
 The advisor should ask:
 
@@ -279,7 +279,7 @@ It should identify weak public value.
 
 It should not assume that useful internal code should automatically be public.
 
-## Expected outcome
+### Expected outcome
 
 **Decision:** Keep Private.
 
@@ -287,13 +287,13 @@ The advisor should explain what would need to change for public release to becom
 
 ---
 
-# Scenario 7 — Experimental ecosystem prototype with ownership
+## Scenario 7 — Experimental ecosystem prototype with ownership
 
-## Initial prompt
+### Initial prompt
 
 > My team wants to experiment publicly with a new observability integration.
 
-## Additional information if asked
+### Additional information if asked
 
 The project:
 
@@ -305,7 +305,7 @@ The project:
 - May change substantially.
 - Has an approved license.
 
-## Expected behavior
+### Expected behavior
 
 The advisor should:
 
@@ -315,7 +315,7 @@ The advisor should:
 - Confirm that the experimental status will be clearly documented.
 - Produce a request summary if publication readiness is sufficient.
 
-## Expected outcome
+### Expected outcome
 
 **Decision:** Publish.
 
@@ -325,13 +325,13 @@ The advisor should:
 
 ---
 
-# Scenario 8 — Customer-created project
+## Scenario 8 — Customer-created project
 
-## Initial prompt
+### Initial prompt
 
 > A customer built an integration for Dynatrace and asked whether we can move it into one of our GitHub organizations.
 
-## Additional information if asked
+### Additional information if asked
 
 The project:
 
@@ -341,7 +341,7 @@ The project:
 - Does not currently have a Dynatrace engineering team committed to owning it.
 - The customer believes putting it under Dynatrace will make users trust it more.
 
-## Expected behavior
+### Expected behavior
 
 The advisor should:
 
@@ -352,7 +352,7 @@ The advisor should:
 - Use Customer and Partner Guidance.
 - Avoid recommending transfer solely for branding or credibility.
 
-## Expected outcome
+### Expected outcome
 
 **Decision:** Needs Review or remain customer-owned unless Dynatrace ownership is established.
 
@@ -360,13 +360,13 @@ No repository creation or transfer request should be treated as ready.
 
 ---
 
-# Scenario 9 — Partner-created integration
+## Scenario 9 — Partner-created integration
 
-## Initial prompt
+### Initial prompt
 
 > One of our partners has an open source integration and wants us to list it as an official Dynatrace project.
 
-## Additional information if asked
+### Additional information if asked
 
 The partner:
 
@@ -376,7 +376,7 @@ The partner:
 - Wants greater visibility.
 - Does not expect Dynatrace engineers to maintain it.
 
-## Expected behavior
+### Expected behavior
 
 The advisor should:
 
@@ -386,19 +386,19 @@ The advisor should:
 - Recommend clear ownership and support labeling.
 - Consider partner-owned stewardship as appropriate.
 
-## Expected outcome
+### Expected outcome
 
 Likely **remain partner-owned**, with clear documentation.
 
 ---
 
-# Scenario 10 — Single maintainer but otherwise ready
+## Scenario 10 — Single maintainer but otherwise ready
 
-## Initial prompt
+### Initial prompt
 
 > We're ready to publish. The repo has docs, a license, and a clear support model.
 
-## Additional information if asked
+### Additional information if asked
 
 The project:
 
@@ -408,7 +408,7 @@ The project:
 - Is community-supported.
 - Is otherwise publication-ready.
 
-## Expected behavior
+### Expected behavior
 
 The advisor should:
 
@@ -417,7 +417,7 @@ The advisor should:
 - Avoid treating the project as fully ready.
 - Ask for a backup maintainer or documented succession path.
 
-## Expected outcome
+### Expected outcome
 
 **Decision:** Publish may be appropriate.
 
@@ -427,13 +427,13 @@ The advisor should:
 
 ---
 
-# Scenario 11 — No license selected
+## Scenario 11 — No license selected
 
-## Initial prompt
+### Initial prompt
 
 > Everything is ready for our public repo except we haven't decided on the license yet.
 
-## Additional information if asked
+### Additional information if asked
 
 The project:
 
@@ -443,7 +443,7 @@ The project:
 - Has no security concerns.
 - Has not received license approval.
 
-## Expected behavior
+### Expected behavior
 
 The advisor should:
 
@@ -452,7 +452,7 @@ The advisor should:
 - Avoid declaring publication fully ready.
 - Recommend resolving license approval.
 
-## Expected outcome
+### Expected outcome
 
 **Readiness:** Not Ready or Ready with Actions depending on whether license approval is a hard publication gate.
 
@@ -460,13 +460,13 @@ The advisor should follow the Hub rather than inventing an approval.
 
 ---
 
-# Scenario 12 — Sensitive information in repository history
+## Scenario 12 — Sensitive information in repository history
 
-## Initial prompt
+### Initial prompt
 
 > We removed an API token from our private repo, so it should be safe to publish now, right?
 
-## Additional information if asked
+### Additional information if asked
 
 The token:
 
@@ -475,7 +475,7 @@ The token:
 - Was used against an internal system.
 - Repository history has not been rewritten or reviewed.
 
-## Expected behavior
+### Expected behavior
 
 The advisor should:
 
@@ -484,7 +484,7 @@ The advisor should:
 - Avoid declaring the repository safe to publish.
 - Follow Security Readiness and Private-to-Public guidance.
 
-## Expected outcome
+### Expected outcome
 
 **Decision:** Not Ready.
 
@@ -492,13 +492,13 @@ The advisor should:
 
 ---
 
-# Scenario 13 — Fork of an upstream project
+## Scenario 13 — Fork of an upstream project
 
-## Initial prompt
+### Initial prompt
 
 > We forked an upstream project and added Dynatrace-specific changes. We'd like to publish our fork.
 
-## Additional information if asked
+### Additional information if asked
 
 The changes:
 
@@ -507,7 +507,7 @@ The changes:
 - Require ongoing synchronization with upstream.
 - Would create long-term maintenance overhead.
 
-## Expected behavior
+### Expected behavior
 
 The advisor should:
 
@@ -516,7 +516,7 @@ The advisor should:
 - Highlight long-lived fork maintenance costs.
 - Avoid automatically recommending a permanent Dynatrace fork.
 
-## Expected outcome
+### Expected outcome
 
 Prefer upstream contribution first.
 
@@ -524,13 +524,13 @@ A Dynatrace fork should only be recommended if there is a documented reason.
 
 ---
 
-# Scenario 14 — Repository location does not determine support
+## Scenario 14 — Repository location does not determine support
 
-## Initial prompt
+### Initial prompt
 
 > If we put the repo under Dynatrace instead of dynatrace-oss, can we call it officially supported?
 
-## Expected behavior
+### Expected behavior
 
 The advisor should clearly explain:
 
@@ -538,19 +538,19 @@ The advisor should clearly explain:
 - Official support requires an actual relationship to supported Dynatrace delivery.
 - The project should be classified based on support commitments, not location.
 
-## Expected outcome
+### Expected outcome
 
 The advisor should reject the premise without being adversarial.
 
 ---
 
-# Scenario 15 — Open Source team as requested owner
+## Scenario 15 — Open Source team as requested owner
 
-## Initial prompt
+### Initial prompt
 
 > Our team doesn't really have time to maintain this after launch. Can the Open Source team own it?
 
-## Expected behavior
+### Expected behavior
 
 The advisor should:
 
@@ -559,19 +559,19 @@ The advisor should:
 - Avoid recommending publication unless that ownership exists.
 - Consider whether the project should remain private, be contributed upstream, or not proceed.
 
-## Expected outcome
+### Expected outcome
 
 **Decision:** Not Ready.
 
 ---
 
-# Scenario 16 — Education/example repository
+## Scenario 16 — Education/example repository
 
-## Initial prompt
+### Initial prompt
 
 > We want to publish a set of hands-on OpenTelemetry learning exercises for developers.
 
-## Additional information if asked
+### Additional information if asked
 
 The project:
 
@@ -583,7 +583,7 @@ The project:
 - Welcomes community improvements.
 - Has a defined license.
 
-## Expected behavior
+### Expected behavior
 
 The advisor should:
 
@@ -593,7 +593,7 @@ The advisor should:
 - Verify whether an upstream or foundation home would be more appropriate.
 - Produce a repository request summary if ready.
 
-## Expected outcome
+### Expected outcome
 
 Likely:
 
@@ -605,13 +605,13 @@ Likely:
 
 ---
 
-# Scenario 17 — Existing upstream foundation project
+## Scenario 17 — Existing upstream foundation project
 
-## Initial prompt
+### Initial prompt
 
 > We want to build a new capability around a CNCF project. Should we create our own repo first?
 
-## Additional information if asked
+### Additional information if asked
 
 The proposed functionality:
 
@@ -620,7 +620,7 @@ The proposed functionality:
 - Has active upstream maintainers.
 - Would benefit users beyond Dynatrace.
 
-## Expected behavior
+### Expected behavior
 
 The advisor should:
 
@@ -628,19 +628,19 @@ The advisor should:
 - Recommend opening the appropriate upstream issue/design discussion.
 - Avoid treating a Dynatrace repo as the default starting point.
 
-## Expected outcome
+### Expected outcome
 
 **Decision:** Contribute Upstream.
 
 ---
 
-# Scenario 18 — Official project with incomplete security readiness
+## Scenario 18 — Official project with incomplete security readiness
 
-## Initial prompt
+### Initial prompt
 
 > This is part of a supported Dynatrace component and we're ready to make it public.
 
-## Additional information if asked
+### Additional information if asked
 
 The project:
 
@@ -651,7 +651,7 @@ The project:
 - Has not reviewed GitHub Actions permissions.
 - Uses several third-party Actions with broad permissions.
 
-## Expected behavior
+### Expected behavior
 
 The advisor should:
 
@@ -660,7 +660,7 @@ The advisor should:
 - Avoid equating support status with publication readiness.
 - Recommend reviewing workflow permissions before release.
 
-## Expected outcome
+### Expected outcome
 
 **Decision:** Publish may be appropriate.
 
@@ -668,13 +668,13 @@ The advisor should:
 
 ---
 
-# Scenario 19 — No external contribution expected
+## Scenario 19 — No external contribution expected
 
-## Initial prompt
+### Initial prompt
 
 > We want the source to be visible publicly, but we don't plan to accept outside contributions.
 
-## Additional information if asked
+### Additional information if asked
 
 The project:
 
@@ -684,13 +684,13 @@ The project:
 - Is officially supported.
 - Does not plan to accept external PRs.
 
-## Expected behavior
+### Expected behavior
 
 The advisor should not treat external contribution as a mandatory requirement for open source publication.
 
 It should ensure that contribution expectations are clearly documented.
 
-## Expected outcome
+### Expected outcome
 
 Publication may still be appropriate.
 
@@ -698,13 +698,13 @@ The repository should clearly communicate whether contributions are accepted.
 
 ---
 
-# Scenario 20 — Ambiguous policy question
+## Scenario 20 — Ambiguous policy question
 
-## Initial prompt
+### Initial prompt
 
 > We have a licensing arrangement that isn't covered anywhere in the Hub. Can we publish?
 
-## Expected behavior
+### Expected behavior
 
 The advisor should:
 
@@ -714,13 +714,13 @@ The advisor should:
 - Direct the user to the Open Source team if appropriate.
 - Provide a concise summary of the unresolved question.
 
-## Expected outcome
+### Expected outcome
 
 **Decision:** Needs Review.
 
 ---
 
-# Testing the Slack handoff
+## Testing the Slack handoff
 
 Use at least one scenario where every requirement is satisfied.
 
@@ -743,7 +743,7 @@ The advisor should **not** say:
 
 ---
 
-# Failure conditions
+## Failure conditions
 
 Consider a test failed if the advisor:
 
@@ -764,7 +764,7 @@ Consider a test failed if the advisor:
 
 ---
 
-# Rollout criteria
+## Rollout criteria
 
 Before making the advisor broadly available, it should consistently pass:
 
