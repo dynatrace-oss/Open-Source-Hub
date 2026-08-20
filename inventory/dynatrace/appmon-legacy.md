@@ -244,6 +244,7 @@ gh api /orgs/Dynatrace/repos --paginate \
 ```
 
 **EOL Notice Template:**
+
 ```markdown
 > ⚠️ **This repository is archived and no longer maintained.**  
 > It was part of the Dynatrace AppMon (Application Monitoring) product line, which has been superseded by the [Dynatrace platform](https://www.dynatrace.com).  
