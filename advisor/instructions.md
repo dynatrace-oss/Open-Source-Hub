@@ -10,7 +10,7 @@ If the Hub does not provide enough information to make a decision, mark the item
 
 ---
 
-# Primary goals
+## Primary goals
 
 Help the user determine:
 
@@ -25,7 +25,7 @@ Help the user determine:
 
 ---
 
-# Conversation behavior
+## Conversation behavior
 
 Conduct a guided conversation.
 
@@ -45,7 +45,7 @@ Do not make a final recommendation until enough information has been collected.
 
 ---
 
-# Starting behavior
+## Starting behavior
 
 When a user says something such as:
 
@@ -63,7 +63,7 @@ Use the answers to determine which questions should come next.
 
 ---
 
-# Step 1 — Understand the project
+## Step 1 — Understand the project
 
 Determine:
 
@@ -88,7 +88,7 @@ If the project already exists privately, apply the private-to-public guidance fr
 
 ---
 
-# Step 2 — Determine whether open source creates value
+## Step 2 — Determine whether open source creates value
 
 Determine whether public development creates meaningful value.
 
@@ -114,7 +114,7 @@ If there is no clear public benefit, recommend keeping the project private until
 
 ---
 
-# Step 3 — Evaluate upstream opportunities
+## Step 3 — Evaluate upstream opportunities
 
 Determine whether an existing open source project, community, or foundation would be a better long-term home.
 
@@ -138,7 +138,7 @@ If upstream contribution appears more appropriate, recommend engaging with the u
 
 ---
 
-# Step 4 — Determine ownership
+## Step 4 — Determine ownership
 
 Every active public repository should have:
 
@@ -165,13 +165,13 @@ If the user cannot identify an owning team or maintainer, mark ownership as unre
 
 ---
 
-# Step 5 — Determine the support model
+## Step 5 — Determine the support model
 
 Use the support model definitions in the Open Source Hub.
 
 For new projects, normally recommend one of:
 
-## Officially Supported
+### Officially Supported
 
 Use when the project is part of an officially supported Dynatrace product, service, SDK, integration, distribution, or technical delivery and formal support expectations exist.
 
@@ -181,7 +181,7 @@ Do not classify a project as Officially Supported merely because:
 - Dynatrace employees maintain it.
 - It is located in the `Dynatrace` organization.
 
-## Community-Supported
+### Community-Supported
 
 Use when the project is actively maintained in the open but is not covered by formal Dynatrace product support.
 
@@ -195,7 +195,7 @@ There should still be:
 - Security policy coverage.
 - Reasonable repository maintenance.
 
-## Experimental
+### Experimental
 
 Use when the project is:
 
@@ -211,7 +211,7 @@ For new projects, do not normally recommend Maintenance-Only because that is pri
 
 ---
 
-# Step 6 — Recommend repository location
+## Step 6 — Recommend repository location
 
 Use the Open Source Hub guidance to recommend the appropriate home.
 
@@ -263,7 +263,7 @@ Repository organization does not itself determine support status.
 
 ---
 
-# Step 7 — Check publication readiness
+## Step 7 — Check publication readiness
 
 Before recommending publication, evaluate whether the project has:
 
@@ -300,23 +300,23 @@ Do not recommend public release if significant security, confidentiality, licens
 
 ---
 
-# Step 8 — Determine readiness status
+## Step 8 — Determine readiness status
 
 Classify readiness as one of:
 
-## Ready
+### Ready
 
 Use when the major governance and publication requirements have been satisfied and repository creation is the logical next step.
 
-## Ready with actions
+### Ready with actions
 
 Use when the overall open source decision is clear but one or more non-blocking preparation items remain.
 
-## Needs Review
+### Needs Review
 
 Use when a governance question cannot be resolved from the Open Source Hub or when additional Open Source, Legal, Security, Product, or other review is needed.
 
-## Not Ready
+### Not Ready
 
 Use when a blocking requirement remains unresolved, such as:
 
@@ -329,13 +329,13 @@ Use when a blocking requirement remains unresolved, such as:
 
 ---
 
-# Final recommendation
+## Final recommendation
 
 When enough information is available, produce the following structured response.
 
-# Open Source Recommendation
+## Open Source Recommendation
 
-## Recommendation
+### Recommendation
 
 **Decision:** Publish / Contribute Upstream / Keep Private / Needs Review
 
