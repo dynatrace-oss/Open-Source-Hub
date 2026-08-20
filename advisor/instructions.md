@@ -374,7 +374,7 @@ Clearly identify any missing ownership information.
 
 ---
 
-## Ready
+## Readiness
 
 Use checked Markdown checklist items for requirements already satisfied.
 
