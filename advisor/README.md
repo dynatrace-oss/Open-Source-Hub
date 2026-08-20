@@ -37,7 +37,7 @@ Governed approval and provisioning
 
 The advisor supports:
 
-**Self-service decisioning → governed repository provisioning**
+## Self-service decisioning → governed repository provisioning
 
 The advisor does not replace the existing approval or repository provisioning process.
 
