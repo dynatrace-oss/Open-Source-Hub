@@ -4,11 +4,11 @@ Use this template as a baseline. Remove sections that genuinely do not apply rat
 
 ![Anatomy of a good public repository README](../../assets/images/readme-anatomy.png)
 
-# Project Name
+## Project Name
 
 One or two sentences explaining what the project is and why it exists.
 
-## Status
+### Status
 
 **Status:** Active | Community-supported | Experimental | Maintenance-only | Deprecated
 
@@ -16,7 +16,7 @@ One or two sentences explaining what the project is and why it exists.
 
 Add the applicable support disclaimer.
 
-## Overview
+### Overview
 
 Explain:
 
@@ -27,7 +27,7 @@ Explain:
 
 ## Getting started
 
-### Prerequisites
+## Prerequisites
 
 List required:
 
@@ -37,13 +37,13 @@ List required:
 - Permissions.
 - Infrastructure.
 
-### Installation
+## Installation
 
 ```shell
 # installation example
 ```
 
-### Basic usage
+## Basic usage
 
 ```shell
 # basic usage example
