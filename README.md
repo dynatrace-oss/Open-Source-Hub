@@ -120,7 +120,7 @@ The inventory helps track:
 Public repositories may be classified using the following lifecycle categories:
 
 | Classification | Purpose |
-|---|---|
+| --- | --- |
 | **Strategic** | Projects with significant product, ecosystem, standards, or business relevance |
 | **Active / Community-Supported** | Actively maintained projects without formal product support |
 | **Experimental** | Early-stage projects, prototypes, or technical exploration |
