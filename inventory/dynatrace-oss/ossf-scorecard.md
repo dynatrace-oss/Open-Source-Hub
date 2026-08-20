@@ -129,16 +129,19 @@ Scores are estimated based on observable signals. Confidence is noted where sign
 ## Priority Scorecard Actions for dynatrace-oss
 
 ### Immediate (all repos, 1 week)
+
 1. Add `SECURITY.md` to every Strategic and Active repo — this alone closes the Security-Policy check
-2. Add `permissions: read-all` to all GitHub Actions workflows — closes Token-Permissions
-3. Add `SECURITY.md` to `logstash-output-dynatrace` — closes Security-Policy check
+1. Add `permissions: read-all` to all GitHub Actions workflows — closes Token-Permissions
+1. Add `SECURITY.md` to `logstash-output-dynatrace` — closes Security-Policy check
 
 ### Short Term (1 month)
-4. Add Dependabot config (`.github/dependabot.yml`) to Strategic repos — closes Dependency-Update-Tool
-5. Pin all workflow steps to SHA — closes Pinned-Dependencies
-6. Add CodeQL or similar SAST to Strategic repos — closes SAST
+
+1. Add Dependabot config (`.github/dependabot.yml`) to Strategic repos — closes Dependency-Update-Tool
+1. Pin all workflow steps to SHA — closes Pinned-Dependencies
+1. Add CodeQL or similar SAST to Strategic repos — closes SAST
 
 ### Medium Term (3 months)
-7. Implement cosign signing for Strategic repo releases — closes Signed-Releases
-8. Enable Scorecard GitHub Action on all repos — surfaces score in Security tab and badges in READMEs
-9. Add fuzzing for `nettracer-bpf` and `eBPF-Discovery` — kernel modules are highest risk
+
+1. Implement cosign signing for Strategic repo releases — closes Signed-Releases
+1. Enable Scorecard GitHub Action on all repos — surfaces score in Security tab and badges in READMEs
+1. Add fuzzing for `nettracer-bpf` and `eBPF-Discovery` — kernel modules are highest risk
