@@ -238,7 +238,9 @@ Individual repositories remain owned by the teams responsible for the projects t
 The Open Source team provides the framework, guidance, coordination, and governance that help those projects operate effectively in public.
 
 ---
+
 ![Dynatrace open source ownership and governance model](assets/images/ownership-governance.png)
+
 ## Who owns what?
 
 ### Project teams
