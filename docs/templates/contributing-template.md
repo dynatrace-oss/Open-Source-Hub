@@ -6,13 +6,13 @@ The content should be customized for the project before publication. Remove sect
 
 ---
 
-# Contributing to [PROJECT NAME]
+## Contributing to [PROJECT NAME]
 
 Thank you for your interest in contributing to **[PROJECT NAME]**.
 
 We welcome contributions that improve the project, including bug fixes, documentation updates, tests, examples, and new functionality that aligns with the project's goals.
 
-## Before you contribute
+### Before you contribute
 
 Before opening a pull request:
 
@@ -22,7 +22,7 @@ Before opening a pull request:
 - For larger changes, consider opening an issue or discussion first.
 - Make sure your contribution is consistent with the scope and direction of the project.
 
-## Ways to contribute
+### Ways to contribute
 
 Contributions may include:
 
@@ -36,7 +36,7 @@ Contributions may include:
 - Reviewing pull requests.
 - Helping answer community questions.
 
-## Reporting issues
+### Reporting issues
 
 Use GitHub Issues for:
 
@@ -62,7 +62,7 @@ Do **not** use public GitHub Issues to report security vulnerabilities.
 See `SECURITY.md` for the appropriate security reporting process.
 Follow the reporting process documented in `SECURITY.md`.
 
-## Proposing larger changes
+### Proposing larger changes
 
 For significant changes, new capabilities, architectural changes, or work that could affect compatibility, open an issue or discussion before beginning implementation.
 
@@ -76,7 +76,7 @@ This allows maintainers and contributors to align on:
 
 Starting with a proposal does not guarantee that a change will be accepted, but it can help avoid unnecessary work.
 
-## Development setup
+### Development setup
 
 > Replace this section with project-specific setup instructions.
 
