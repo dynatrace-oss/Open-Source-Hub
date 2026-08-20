@@ -1,5 +1,6 @@
-![How Dynatrace approaches open source](../../assets/images/how-dynatrace-approaches-open-source.png)
 # How Dynatrace Approaches Open Source
+
+![How Dynatrace approaches open source](../../assets/images/how-dynatrace-approaches-open-source.png)
 
 Dynatrace participates in open source as a contributor, maintainer, consumer, and ecosystem partner.
 
