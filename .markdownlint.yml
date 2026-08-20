@@ -1,4 +1,14 @@
+# Don't enforce arbitrary source line wrapping
 MD013: false
 
+# Allow repeated headings when they are in different sections
 MD024:
   siblings_only: true
+
+# Formatting-only rules that create lots of churn
+MD022: false  # blank lines around headings
+MD034: false  # bare URLs
+MD036: false  # bold text that looks like a heading
+MD040: false  # require language on fenced code blocks
+MD041: false  # require H1 as first line
+MD060: false  # table pipe spacing
