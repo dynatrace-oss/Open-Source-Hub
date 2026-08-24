@@ -2,7 +2,7 @@
 @open-source-team
 
 # GitHub configuration
-/.github/ @dynatrace-oss/open-source-team
+/.github/ @open-source-team
 
 #Docs
 /docs/ @open-source-team
