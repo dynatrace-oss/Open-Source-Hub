@@ -6,13 +6,13 @@ Place the notice near the top of the repository `README.md` so users can immedia
 
 ## Standard archive notice
 
-> **Archived**
+> ⚠️ **Archived**
 >
 > This project is no longer actively maintained. The repository remains available for reference, but no additional features, fixes, or support should be expected.
 
 ## Archive notice with a replacement
 
-> **Archived**
+> ⚠️ **Archived**
 >
 > This project is no longer actively maintained. Development has moved to [replacement project].
 >
@@ -22,7 +22,7 @@ Place the notice near the top of the repository `README.md` so users can immedia
 
 Use this version when users should move away from the project before the repository is fully archived.
 
-> **Deprecated**
+> ⚠️ **Deprecated**
 >
 > This project is no longer recommended for new implementations and is expected to be archived.
 >
@@ -32,7 +32,7 @@ Use this version when users should move away from the project before the reposit
 
 Use this when active feature development has stopped but limited maintenance is still expected.
 
-> **Maintenance Mode**
+> ⚠️ **Maintenance Mode**
 >
 > This project is currently in maintenance mode. Critical fixes, security updates, or compatibility updates may be provided, but active feature development should not be expected.
 >
@@ -49,7 +49,7 @@ If the repository has a clear successor, include:
 
 Example:
 
-> **Archived — August 2026**
+> ⚠️ **Archived — August 2026**
 >
 > This project is no longer actively maintained.
 > Development has moved to `[Project Name](REPLACEMENT_REPOSITORY_URL)`.
