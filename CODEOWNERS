@@ -1,12 +1,2 @@
 #Owners
 @open-source-team
-
-# GitHub configuration
-/.github/@open-source-team
-
-#Docs
-/docs/@open-source-team
-/projects/@open-source-team
-
-#Security
-/SECURITY.md @open-source-team
