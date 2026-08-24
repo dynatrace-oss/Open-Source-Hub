@@ -1,9 +1,12 @@
 #Team @Dynatrace/open-source-team
 
 /.github/ @Dynatrace/open-source-team
-/docs/governance/ @Dynatrace/open-source-team
-/docs/publishing/ @Dynatrace/open-source-team
-/docs/retiring/ @Dynatrace/open-source-team
-/docs/templates/ @Dynatrace/open-source-team
+
+#Docs
+
+/docs/ @Dynatrace/open-source-team
 /projects/ @Dynatrace/open-source-team
+
+#Security
+
 /SECURITY.md @Dynatrace/open-source-team
