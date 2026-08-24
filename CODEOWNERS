@@ -2,11 +2,11 @@
 @Dynatrace/open-source-team
 
 # GitHub configuration
-/.github/ @Dynatrace/open-source-team
+/.github/ @open-source-team
 
 #Docs
-/docs/ @Dynatrace/open-source-team
-/projects/ @Dynatrace/open-source-team
+/docs/ @open-source-team
+/projects/ @open-source-team
 
 #Security
-/SECURITY.md @Dynatrace/open-source-team
+/SECURITY.md @open-source-team
