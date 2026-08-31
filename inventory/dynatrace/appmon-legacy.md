@@ -1,6 +1,6 @@
 # 🔴 AppMon Legacy — Archive Candidates (Dynatrace)
 
-Pages 6–10 of the Dynatrace org are dominated by `Dynatrace-AppMon-*` plugins, fastpacks, sensor packs, and `DCRUM-*` scripts from the pre-Dynatrace platform era (approximately 2012–2018). All are **already archived** on GitHub.
+`Dynatrace-AppMon-*` plugins, fastpacks, sensor packs, and `DCRUM-*` scripts from the pre-Dynatrace platform era (approximately 2012–2018). All are **already archived** on GitHub.
 
 **Total AppMon/DCRUM archived repos:** ~150  
 **Recommended Disposition:** 🔴 **Archive Candidate** ✅ (already archived)
