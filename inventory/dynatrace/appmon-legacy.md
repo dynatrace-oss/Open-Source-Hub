@@ -31,7 +31,7 @@ All repos in this group share the following profile:
 
 2. **Consider bulk deletion** of repos with 0 stars, 0 forks, 0 issues — these provide no value as public artifacts and add noise to the org. Candidates for deletion (confirmed zero adoption):
 
-3. **Retain with EOL notice** any repos with ≥5 forks or ≥5 stars — these may still be referenced in customer environments.
+3. **Retain with EOL notice and move to legacy org** any repos with ≥5 forks or ≥5 stars — these may still be referenced in customer environments.
 
 ---
 
