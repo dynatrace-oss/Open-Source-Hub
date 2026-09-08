@@ -10,10 +10,6 @@ Dynatrace participates in open source as a contributor, maintainer, consumer, an
 
 ---
 
-## Choose your path
-
-![Choose your path through the Dynatrace Open Source Hub](assets/images/choose-your-path.png)
-
 ## Have an open source project idea?
 
 Not sure whether your project should be open source, where it should live, or what support model applies?
@@ -32,6 +28,10 @@ The advisor can help you:
 **[Open the Open Source Project Advisor in Claude](https://claude.ai/project/01a015ec-48ad-7651-a086-d2f0da82112f)**
 
 > The advisor provides guidance but does not approve or create repositories. Repository creation remains a governed process.
+
+## Choose your path
+
+![Choose your path through the Dynatrace Open Source Hub](assets/images/choose-your-path.png)
 
 ### I work at Dynatrace
 
