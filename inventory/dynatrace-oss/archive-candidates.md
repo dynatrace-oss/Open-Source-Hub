@@ -16,7 +16,7 @@ These repositories are already archived on GitHub or meet the criteria for archi
 | **Strategic Relevance** | ❌ Archived — superseded by internal design system evolution |
 | **Notable Signals** | Highest fork count in the org (74); 146 stars — significant legacy community footprint |
 | **Action Required** | Add README banner pointing to any successor design system; ensure no dependent projects are still actively importing from this repo |
-| **Recommended Disposition** | 🔴 **Archive Candidate** ✅ Already archived — add redirect notice |
+| **Recommended Disposition** | 🔴 **Archive Candidate** ✅ Already archived|
 
 ---
 
@@ -29,7 +29,7 @@ These repositories are already archived on GitHub or meet the criteria for archi
 | **Business / Ecosystem Purpose** | `autodynatrace` — Python library implementing automatic instrumentation using the OneAgent SDK |
 | **Strategic Relevance** | ❌ Archived — superseded by OpenTelemetry-based instrumentation |
 | **Action Required** | 6 open issues remain unresolved; update README to direct users to OTel instrumentation examples (`dynatrace-ai-agent-instrumentation-examples`) |
-| **Recommended Disposition** | 🔴 **Archive Candidate** ✅ Already archived — close or redirect open issues |
+| **Recommended Disposition** | 🔴 **Archive Candidate** ✅ Already archived|
 
 ---
 
