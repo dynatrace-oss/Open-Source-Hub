@@ -50,7 +50,7 @@ Non-AppMon repos that are archived, deprecated, or should be transferred/deleted
 | **Business / Ecosystem Purpose** | Automated crash dump analysis service — web UI for analyzing Windows crash dumps |
 | **Strategic Relevance** | ❌ Archived — standalone tool; very high stars (533) indicate genuine community value but Dynatrace is no longer maintaining |
 | **Notable Signal** | Highest star count of any archived (or active) repo in the org; significant OSS footprint |
-| **Action Required** | Consider whether this warrants a community maintainer handoff rather than abandonment. Add link to any forks that have continued development |
+| **Action Required** | Repo is archived — issues cannot be opened. Temporarily unarchive to add a README notice inviting fork maintainers to contact `opensource@dynatrace.com`, then re-archive; or search existing forks for active candidates and link the best one from the README |
 | **Recommended Disposition** | 🔴 **Archive Candidate** ✅ Already archived — evaluate transfer to a community maintainer |
 
 ---
@@ -174,20 +174,28 @@ Non-AppMon repos that are archived, deprecated, or should be transferred/deleted
 
 ## ⚫ Transfer or Deletion Candidates
 
-### Upstream Mirrors — Should Be Private or Deleted
+### Upstream Forks — Classify Before Acting
 
-These repos are forks of external projects with zero Dynatrace-specific content. Their large fork counts are inherited from the upstream project and create a misleading picture of DT community adoption.
+These repos are forks of external upstream projects. Their large fork counts are inherited from the upstream network, not from Dynatrace's OSS community, and inflate org-level metrics.
 
-| Repo | Upstream | Forks (inherited) | Action |
-|---|---|---|---|
-| `community-operators` | OperatorHub.io | 757 | Make private — this is a contribution workflow repo |
-| `community-operators-prod` | OperatorHub.io | 654 | Make private |
-| `certified-operators` | Red Hat | 646 | Make private |
-| `redhat-marketplace-operators` | Red Hat | 130 | Make private |
-| `datahub` | DataHub Project (LinkedIn) | 3.7k | Make private or delete — 15 open issues |
-| `v8` | Google V8 | 4.3k | Delete — archived; no DT-specific content |
+> **Note:** Privatizing a fork permanently removes its upstream relationship and associated GitHub metadata, which could affect future contribution workflows. The correct fix for inflated metrics is to **filter by `fork: true`** when calculating community size, not to privatize. Only privatize or delete individual repos when there is a separate operational or security reason to do so.
 
-**Note:** If Dynatrace contributes to these upstream repos, the contribution workflow does not require the fork to be public. Make these private to clean up the org's public profile.
+**Recommended action:** Identify the owner and current purpose of each repo, then classify as one of:
+- **Active upstream contribution fork** — keep public, ensure owner is identified
+- **Automated mirror** — evaluate whether mirroring is still needed
+- **Historical archive** — archive on GitHub if not already; add a note to the README
+- **Unused** — candidate for deletion after owner confirmation
+
+| Repo | Upstream | Forks (inherited) | Suspected Classification | Next Step |
+|---|---|---|---|---|
+| `community-operators` | OperatorHub.io | 757 | Active upstream contribution | Confirm owner; keep public |
+| `community-operators-prod` | OperatorHub.io | 654 | Active upstream contribution | Confirm owner; keep public |
+| `certified-operators` | Red Hat | 646 | Active upstream contribution | Confirm owner; keep public |
+| `redhat-marketplace-operators` | Red Hat | 130 | Active upstream contribution | Confirm owner; keep public |
+| `datahub` | DataHub Project (LinkedIn) | 3.7k | Unclear — 15 open issues | Identify owner; classify |
+| `v8` | Google V8 | 4.3k | Unused mirror — already archived | Confirm no active use; deletion candidate |
+
+**Metrics fix:** Exclude `fork: true` repos when reporting Dynatrace OSS community size. This requires no repo changes and immediately gives an accurate picture.
 
 ---
 
