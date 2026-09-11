@@ -27,7 +27,7 @@ Non-AppMon repos that are archived, deprecated, or should be transferred/deleted
 | **Strategic Relevance** | ❌ Archived — v1 API patterns superseded by DQL, platform APIs, and `api-client-python` in `dynatrace-oss` |
 | **Notable Signal** | 108 stars, 85 forks — significant legacy footprint; 9 open issues need closure |
 | **Action Required** | Close or redirect 9 open issues to `dynatrace-oss/api-client-python`; add notice to README |
-| **Recommended Disposition** | 🔴 **Archive Candidate** ✅ Already archived — close open issues |
+| **Recommended Disposition** | 🔴 **Archive Candidate** ✅ Already archived |
 
 ---
 
@@ -38,7 +38,7 @@ Non-AppMon repos that are archived, deprecated, or should be transferred/deleted
 |---|---|
 | **Business / Ecosystem Purpose** | Visual alert/status display device for builds, CI, continuous delivery — 1st gen Dynatrace UFO controller |
 | **Strategic Relevance** | ❌ Archived — superseded by `ufo-esp32` (2nd gen) |
-| **Recommended Disposition** | 🔴 **Archive Candidate** ✅ Already archived — add link to `ufo-esp32` in README |
+| **Recommended Disposition** | 🔴 **Archive Candidate** ✅ Already archived |
 
 ---
 
@@ -51,7 +51,7 @@ Non-AppMon repos that are archived, deprecated, or should be transferred/deleted
 | **Strategic Relevance** | ❌ Archived — standalone tool; very high stars (533) indicate genuine community value but Dynatrace is no longer maintaining |
 | **Notable Signal** | Highest star count of any archived (or active) repo in the org; significant OSS footprint |
 | **Action Required** | Repo is archived — issues cannot be opened. Temporarily unarchive to add a README notice inviting fork maintainers to contact `opensource@dynatrace.com`, then re-archive; or search existing forks for active candidates and link the best one from the README |
-| **Recommended Disposition** | 🔴 **Archive Candidate** ✅ Already archived — evaluate transfer to a community maintainer |
+| **Recommended Disposition** | 🔴 **Archive Candidate** ✅ Already archived |
 
 ---
 
@@ -72,7 +72,7 @@ Non-AppMon repos that are archived, deprecated, or should be transferred/deleted
 | Dimension | Assessment |
 |---|---|
 | **Business / Ecosystem Purpose** | AWS monitoring tutorial series |
-| **Recommended Disposition** | 🔴 **Archive Candidate** ✅ Already archived — close open issue |
+| **Recommended Disposition** | 🔴 **Archive Candidate** ✅ Already archived |
 
 ---
 
@@ -83,7 +83,7 @@ Non-AppMon repos that are archived, deprecated, or should be transferred/deleted
 |---|---|
 | **Business / Ecosystem Purpose** | Official mirror of the V8 JavaScript engine Git repository |
 | **Strategic Relevance** | ❌ None — upstream mirror; 4.3k forks are inherited from V8 itself |
-| **Recommended Disposition** | ⚫ **Transfer or Deletion Candidate** — upstream mirror should be private or deleted; creates misleading fork count |
+| **Recommended Disposition** | ⚫ **Deleted Candidate** |
 
 ---
 
@@ -117,8 +117,7 @@ Non-AppMon repos that are archived, deprecated, or should be transferred/deleted
 | Dimension | Assessment |
 |---|---|
 | **Business / Ecosystem Purpose** | Example Python webhook for Dynatrace problem notifications |
-| **Recommended Disposition** | 🔴 **Archive Candidate** ✅ — add redirect to Dynatrace Workflows documentation |
-
+| **Recommended Disposition** | 🔴 **Archive Candidate** ✅ Already archived |
 ---
 
 ### `serverless-hotday-2019` ⛔ ARCHIVED
@@ -134,7 +133,7 @@ Non-AppMon repos that are archived, deprecated, or should be transferred/deleted
 | Dimension | Assessment |
 |---|---|
 | **Business / Ecosystem Purpose** | Dynatrace Platform JMX plugins |
-| **Recommended Disposition** | 🔴 **Archive Candidate** ✅ — close 4 open issues |
+| **Recommended Disposition** | 🔴 **Archive Candidate** ✅ Already archived |
 
 ---
 
