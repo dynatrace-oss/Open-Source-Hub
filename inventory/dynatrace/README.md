@@ -18,8 +18,8 @@
 | 🔵 **Active / Community-Supported** | 30 | `easytrade`, `easyTravel-Docker`, `opentelemetry-demo`, `community-examples`, `dt-app-templates`, `OneAgent-SDK-for-Java`, `OneAgent-SDK-for-Python`, `OneAgent-SDK-for-NodeJs`, `openkit-java`, `openkit-dotnet`, `OneAgent-SDK`, `agent-nodejs`, `Dynatrace-workflow-samples`, `obslab-llm-observability`, `obslab-release-validation`, `helm-charts`, `snippets`, `dynatrace-service-broker`, `demo-live-debugging`, `fastlane-plugin-dynatrace`, `Dynatrace-EventDrivenAnsible`, `k8s-problem-patterns`, `libbuildpack-dynatrace`, `heroku-buildpack-dynatrace`, `ace-box`, `ufo-esp32`, `dynatrace-configuration-as-code-core`, `dynatrace-otel-collector`, `demo-opentelemetry-patterns`, `openkit-native` |
 | 🟡 **Experimental** | 18 | `otel-target-allocator`, `opentelemetry-demo-gitops`, `dynatrace-bindplane-otel-contrib`, `demo-crossplane`, `dynatrace-log-enrichment`, `obslab-*` series, `demo-*` series, `dynatrace-eda-integration`, `anomaly-simulation-service`, `dtctl-ai-bug-demo`, `livedebugger-file-coverage-dashboard`, `dynatrace-aws-platform-monitoring-s3-log-forwarder` |
 | 🟠 **Maintenance-Only** | 12 | `OneAgent-SDK-for-Go`, `OneAgent-SDK-for-PHP`, `openkit-js`, `OneAgent-SDK-for-C`, `openkit-native`, `db-connection-check`, `dynatrace-log-enrichment`, `datahub`, `OneAgent-SDK-for-dotnet`, `Dynatrace-OneAgent-Ansible`, `easyTravel-Docker` (some) |
-| 🔴 **Archive Candidate** | ~170 | All `Dynatrace-AppMon-*`, `DCRUM-*`, `dynatrace-oneagent-operator` ⛔, `ufo` ⛔, `superdump` ⛔, `AWSDevOpsTutorial` ⛔, `v8` ⛔, and all others already archived |
-| ⚫ **Transfer or Deletion** | 8 | `datahub` (fork), `community-operators*` (upstream mirrors), `certified-operators` (upstream mirror), `redhat-marketplace-operators` (upstream mirror), `v8` (upstream mirror), `dem-license`, `Sody-scripts` |
+| 🔴 **Archive Candidate** | ~170 | All `Dynatrace-AppMon-*`, `DCRUM-*` , and all others already archived |
+| ⚫ **Transfer or Deletion** | 8 | `datahub` (fork), `community-operators*` (upstream mirrors), `certified-operators` (upstream mirror), `redhat-marketplace-operators` (upstream mirror), `dem-license`|
 
 ---
 
