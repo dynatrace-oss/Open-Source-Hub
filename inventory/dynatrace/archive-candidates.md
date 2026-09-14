@@ -118,6 +118,7 @@ Non-AppMon repos that are archived, deprecated, or should be transferred/deleted
 |---|---|
 | **Business / Ecosystem Purpose** | Example Python webhook for Dynatrace problem notifications |
 | **Recommended Disposition** | 🔴 **Archive Candidate** ✅ Already archived |
+
 ---
 
 ### `serverless-hotday-2019` ⛔ ARCHIVED
@@ -180,6 +181,7 @@ These repos are forks of external upstream projects. Their large fork counts are
 > **Note:** Privatizing a fork permanently removes its upstream relationship and associated GitHub metadata, which could affect future contribution workflows. The correct fix for inflated metrics is to **filter by `fork: true`** when calculating community size, not to privatize. Only privatize or delete individual repos when there is a separate operational or security reason to do so.
 
 **Recommended action:** Identify the owner and current purpose of each repo, then classify as one of:
+
 - **Active upstream contribution fork** — keep public, ensure owner is identified
 - **Automated mirror** — evaluate whether mirroring is still needed
 - **Historical archive** — archive on GitHub if not already; add a note to the README
