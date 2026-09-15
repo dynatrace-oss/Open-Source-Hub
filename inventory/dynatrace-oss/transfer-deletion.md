@@ -37,7 +37,6 @@ These repositories have no meaningful external purpose in their current state. R
 **Language:** HTML | **License:** (unspecified) | **Stars:** 0 ⭐ | **Forks:** 0 | **Open Issues:** 0
 ⚫ Deleted
 
-
 | Dimension | Assessment |
 |---|---|
 | **Business / Ecosystem Purpose** | GitHub Pages site for the dynatrace-oss organization |
