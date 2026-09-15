@@ -44,7 +44,7 @@ These repositories have no meaningful external purpose in their current state. R
 | **Strategic Relevance** | Low — the landing page at `dynatrace-oss.github.io` is the public face of the OSS org, but appears to be empty or unmaintained |
 | **Activity Level** | 🔴 Zero adoption signals |
 | **Recommended Action** | **Invest or delete** — either build this into a meaningful OSS landing page (portfolio, links to key repos, contribution guide) or remove it. An empty GitHub Pages site is worse than no site |
-| **Recommended Disposition** | ⚫ **Transfer or Deletion Candidate** *(if not invested in)* |
+| **Recommended Disposition** | ⚫ Deleted 09/15/26|
 
 ---
 
