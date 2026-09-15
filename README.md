@@ -27,6 +27,8 @@ The advisor can help you:
 
 **[Open the Open Source Project Advisor in Claude](https://claude.ai/project/01a015ec-48ad-7651-a086-d2f0da82112f)**
 
+_**Internal tool**: The Dynatrace Clause Advisor is available only to Dynatrace employees. External users can follow the [[setup instructions](https://github.com/dynatrace-oss/Open-Source-Hub/blob/main/advisor/README.md)] to build and deploy their own instance._
+
 > The advisor provides guidance but does not approve or create repositories. Repository creation remains a governed process.
 
 ## Choose your path
@@ -287,3 +289,5 @@ Have a question about:
 - Archival or deletion
 
 [Open an open source request in Slack](https://dynatrace.enterprise.slack.com/archives/CJGELHH5E)
+
+_**Internal channel:** This Slack channel is available only to Dynatrace employees with access to the Dynatrace workspace._
