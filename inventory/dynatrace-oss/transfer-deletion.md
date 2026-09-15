@@ -33,8 +33,10 @@ These repositories have no meaningful external purpose in their current state. R
 ---
 
 ## `dynatrace-oss.github.io`
-**URL:** https://github.com/dynatrace-oss/dynatrace-oss.github.io  
+**URL:** github.com/ dynatrace-oss/dynatrace-oss.github.io  
 **Language:** HTML | **License:** (unspecified) | **Stars:** 0 ⭐ | **Forks:** 0 | **Open Issues:** 0
+⚫ Deleted
+
 
 | Dimension | Assessment |
 |---|---|
