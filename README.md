@@ -90,6 +90,20 @@ Repository status may evolve over time as project relevance, ownership, maintena
 
 ---
 
+## Insights & Reporting
+
+### 🧩 Open Source Footprint
+
+Explore where and how Dynatracers contribute to open source across Dynatrace-managed projects and the wider ecosystem.
+
+View contribution activity, pull requests, reviews, issues, and the organizations and repositories where that work is happening.
+
+[View the Open Source Footprint dashboard](DASHBOARD-LINK)
+
+> **Internal resource:** This dashboard is intended for Dynatrace employees.
+
+---
+
 ## Public repository inventory
 
 The Open Source Hub includes a structured inventory of public repositories across Dynatrace GitHub organizations.
