@@ -98,7 +98,7 @@ Explore where and how Dynatracers contribute to open source across Dynatrace-man
 
 View contribution activity, pull requests, reviews, issues, and the organizations and repositories where that work is happening.
 
-[View the Open Source Footprint dashboard]([DASHBOARD-LINK](https://wkf10640.apps.dynatrace.com/ui/apps/dynatrace.dashboards/dashboard/2fdcadea-4afb-471a-b368-9bc3153aa6ab#from=now%28%29-7d&to=now%28%29))
+[View the Open Source Footprint dashboard](https://wkf10640.apps.dynatrace.com/ui/apps/dynatrace.dashboards/dashboard/2fdcadea-4afb-471a-b368-9bc3153aa6ab#from=now%28%29-7d&to=now%28%29)
 
 > **Internal resource:** This dashboard is intended for Dynatrace employees.
 
