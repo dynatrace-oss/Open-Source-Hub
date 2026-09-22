@@ -96,11 +96,11 @@ Repository status may evolve over time as project relevance, ownership, maintena
 
 Explore where and how Dynatracers contribute to open source across Dynatrace-managed projects and the wider ecosystem.
 
-Quarterly screenshots will highlight contribution activity, pull requests, reviews, issues, and the organizations and repositories where that work is happening. These snapshots provide a point-in-time view and will be updated each quarter.
+Quarterly snapshots highlight contribution activity, pull requests, reviews, issues, and the organizations and repositories where that work is happening. These snapshots provide a point-in-time view and are updated each quarter.
 
 [View the Open Source Footprint dashboard](https://wkf10640.apps.dynatrace.com/ui/apps/dynatrace.dashboards/dashboard/2fdcadea-4afb-471a-b368-9bc3153aa6ab#from=now%28%29-7d&to=now%28%29)
 
-> **Internal resource:** The live dashboard is intended for Dynatrace employees. Because the dashboard view has limitations, quarterly screenshots will also be shared here.
+> **Live dashboard access**: The Open Source Footprint dashboard is hosted in the Dynatrace Playground environment and requires a Dynatrace login. Access may be available to employees, partners, customers, and trial users. Quarterly snapshots are also published here for broader visibility.
 
 #### Open Source Footprint — September 2026 Snapshot
 
