@@ -96,11 +96,25 @@ Repository status may evolve over time as project relevance, ownership, maintena
 
 Explore where and how Dynatracers contribute to open source across Dynatrace-managed projects and the wider ecosystem.
 
-View contribution activity, pull requests, reviews, issues, and the organizations and repositories where that work is happening.
+Quarterly screenshots will highlight contribution activity, pull requests, reviews, issues, and the organizations and repositories where that work is happening. These snapshots provide a point-in-time view and will be updated each quarter.
 
 [View the Open Source Footprint dashboard](https://wkf10640.apps.dynatrace.com/ui/apps/dynatrace.dashboards/dashboard/2fdcadea-4afb-471a-b368-9bc3153aa6ab#from=now%28%29-7d&to=now%28%29)
 
-> **Internal resource:** This dashboard is intended for Dynatrace employees.
+> **Internal resource:** The live dashboard is intended for Dynatrace employees. Because the dashboard view has limitations, quarterly screenshots will also be shared here.
+
+#### Open Source Footprint — September 2026 Snapshot
+
+Screenshots are updated quarterly. These images were captured on September 22, 2026, and reflect the selected dashboard timeframe—not the full quarter.
+
+##### Contribution overview
+
+![Open source activity overview, including pull requests, reviews, issues, and contributions across external and Dynatrace organizations](<assets/images/22.09.2026 Dashboard 1.png>)
+
+##### Contributions by organization and repository
+
+![Detailed breakdown of external and Dynatrace contributions, merged pull requests, created issues, and reviews by organization and repository](<assets/images/22.09.2026 Dashboard 2.png>)
+
+> **Data coverage:** Tracking began October 27, 2025. Pull requests opened before this date are excluded, even if merged later.
 
 ---
 
