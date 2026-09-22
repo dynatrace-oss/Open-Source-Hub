@@ -143,7 +143,7 @@ Public repositories may be classified using the following lifecycle categories:
 | **Experimental** | Early-stage projects, prototypes, or technical exploration |
 | **Maintenance-Only** | Stable projects receiving limited updates rather than active feature development |
 
-Classification is a lifecycle and investment signal. It does not automatically determine whether a repository should be archived, transferred, or deleted.
+Classification is a lifecycle and investment signal.
 
 ---
 
