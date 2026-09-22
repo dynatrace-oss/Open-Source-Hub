@@ -106,15 +106,17 @@ Quarterly screenshots will highlight contribution activity, pull requests, revie
 
 Screenshots are updated quarterly. These images were captured on September 22, 2026, and reflect the selected dashboard timeframe—not the full quarter.
 
-##### Contribution overview
+<h5>Contribution overview</h5>
 
-![Open source activity overview, including pull requests, reviews, issues, and contributions across external and Dynatrace organizations](<assets/images/22.09.2026 Dashboard 1.png>)
+<a href="assets/images/22.09.2026 Dashboard 1.png">
+  <img src="assets/images/22.09.2026 Dashboard 1.png" alt="Open source activity overview" width="600">
+</a>
 
-##### Contributions by organization and repository
+<h5>Contributions by organization and repository</h5>
 
-![Detailed breakdown of external and Dynatrace contributions, merged pull requests, created issues, and reviews by organization and repository](<assets/images/22.09.2026 Dashboard 2.png>)
-
-> **Data coverage:** Tracking began October 27, 2025. Pull requests opened before this date are excluded, even if merged later.
+<a href="assets/images/22.09.2026 Dashboard 2.png">
+  <img src="assets/images/22.09.2026 Dashboard 2.png" alt="Contributions by organization and repository" width="600">
+</a>
 
 ---
 
