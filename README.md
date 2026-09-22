@@ -304,6 +304,6 @@ Have a question about:
 
 [Open an open source request in Slack](https://dynatrace.enterprise.slack.com/archives/CJGELHH5E)
 
-_**Internal channel:** This Slack channel is available only to Dynatrace employees with access to the Dynatrace workspace._
+> _**Internal channel:** This Slack channel is available only to Dynatrace employees with access to the Dynatrace workspace._
 
 **Email**: opensource@dynatrace.com
