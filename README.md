@@ -142,8 +142,6 @@ Public repositories may be classified using the following lifecycle categories:
 | **Active / Community-Supported** | Actively maintained projects without formal product support |
 | **Experimental** | Early-stage projects, prototypes, or technical exploration |
 | **Maintenance-Only** | Stable projects receiving limited updates rather than active feature development |
-| **Archive Candidate** | Projects being evaluated for archival |
-| **Transfer or Deletion Candidate** | Projects that may be better owned elsewhere or no longer warrant continued hosting |
 
 Classification is a lifecycle and investment signal. It does not automatically determine whether a repository should be archived, transferred, or deleted.
 
