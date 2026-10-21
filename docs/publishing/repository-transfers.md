@@ -189,7 +189,7 @@ To maintain existing redirects:
   reserved repository names registry.
 - Verify that a proposed repository name is not reserved before
   creating a new repository.
-- Coordinate any exceptions with OSPO and GitHub Tooling.
+- Coordinate any exceptions with OSPO and Tooling.
 
 **Important:** Creating a new repository at the original location
 can override GitHub's automatic redirect, potentially breaking
@@ -205,7 +205,7 @@ GitHub redirects.
 | `dynatrace-oss/dtctl` | `Dynatrace/dtctl` | Preserve repository redirect |
 
 Reserved names must not be reused without review and approval
-from OSPO and GitHub Tooling.
+from OSPO and Tooling.
 
 ### Responsibilities
 
