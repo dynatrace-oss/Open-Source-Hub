@@ -96,6 +96,27 @@ Before creating a new repository, ask whether the content belongs in:
 
 Creating a repository creates ongoing governance and maintenance cost.
 
+## Repository Name Validation
+
+Before creating a new repository, verify that the proposed
+repository name has not previously been used by a repository
+that was transferred or renamed.
+
+GitHub automatically maintains redirects for transferred and
+renamed repositories. Reusing an original repository name
+can override the redirect and break existing links.
+
+### Requirements
+
+- Check the reserved repository names registry before approving
+  a new repository.
+- Do not reuse reserved repository names without approval.
+- Escalate potential naming conflicts to OSPO and GitHub Tooling.
+- Document any approved exceptions.
+
+For the current list of reserved names and additional guidance,
+see [Repository Transfers](repository-transfers.md#reserved-repository-names).
+
 ## Next step
 
 Complete the requirements in:
