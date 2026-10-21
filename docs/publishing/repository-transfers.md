@@ -168,5 +168,56 @@ Pay particular attention to references containing the repository's old organizat
 
 Examples may include:
 
-```text
 Dynatrace/example-repository
+
+## Preserving Repository Redirects
+
+When a repository is transferred or renamed, GitHub automatically
+creates a redirect from the original repository URL to the new
+location.
+
+These redirects help preserve existing links, documentation,
+integrations, and references.
+
+### Repository Name Protection
+
+To maintain existing redirects:
+
+- Do not recreate repositories using names previously associated
+  with transferred or renamed repositories.
+- Record original and destination repository URLs in the
+  reserved repository names registry.
+- Verify that a proposed repository name is not reserved before
+  creating a new repository.
+- Coordinate any exceptions with OSPO and GitHub Tooling.
+
+**Important:** Creating a new repository at the original location
+can override GitHub's automatic redirect, potentially breaking
+existing links and integrations.
+
+### Reserved Repository Names
+
+The following repository names are reserved to preserve existing
+GitHub redirects.
+
+| Original Repository | Current Repository | Reason |
+|---------------------|--------------------|--------|
+| `dynatrace-oss/dtctl` | `Dynatrace/dtctl` | Preserve repository redirect |
+
+Reserved names must not be reused without review and approval
+from OSPO and GitHub Tooling.
+
+### Responsibilities
+
+**OSPO**
+- Maintain the reserved repository names registry.
+- Review requests involving previously transferred repositories.
+- Document exceptions and approvals.
+
+**GitHub Tooling**
+- Check reserved names during repository creation.
+- Evaluate technical safeguards to prevent accidental reuse.
+- Coordinate with OSPO on exceptions.
+
+For repository creation requirements, see
+[New Repositories](new-repositories.md).
