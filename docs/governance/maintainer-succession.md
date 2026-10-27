@@ -1,4 +1,4 @@
-# Maintainer Succession
+# Ownership & Maintainer Succession
 
 Every active public repository should have clear and sustainable maintainer ownership.
 
