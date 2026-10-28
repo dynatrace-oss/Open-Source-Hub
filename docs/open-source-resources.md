@@ -38,6 +38,8 @@ Contributions can include code, documentation, issue reports, testing, translati
 - [OpenSSF Security Guides](https://openssf.org/resources/guides/): Explore guidance on secure development and vulnerability disclosure.
 - [REUSE Tutorial](https://reuse.software/tutorial/): Learn how to document copyright and license information in a repository.
 
+**At Dynatrace:** Follow the relevant internal security and licensing guidance and contact Security or Legal when needed: **[[Security Guidance](https://github.com/dynatrace-oss/Open-Source-Hub/blob/d594f21c2f3c729f14abec89489f9f33c74619e6/docs/maintaining/security-readiness.md), [Scorecard instructions](https://github.com/dynatrace-oss/Open-Source-Hub/blob/d594f21c2f3c729f14abec89489f9f33c74619e6/docs/maintaining/openssf-scorecard.md), [Licensing Guidance]]**.
+
 ## Project health and lifecycle
 
 - [Starter Project Health Metrics Model — CHAOSS](https://www.chaoss.community/kb/metrics-model-starter-project-health/): Explore a starting set of measures for understanding project health. Interpret metrics in the context of each project's goals and community.
