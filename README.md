@@ -177,6 +177,7 @@ Classification is a lifecycle and investment signal.
 - [Support models](docs/governance/support-models.md)
 - [Contributor access](docs/governance/contributor-access.md)
 - [Maintainer succession](docs/governance/maintainer-succession.md)
+- [Licensing Guidance](docs/governance/licensing-guidance.md)
 
 ### Publishing
 
