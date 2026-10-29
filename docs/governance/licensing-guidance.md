@@ -429,37 +429,6 @@ If any item cannot be confirmed, mark the project **Needs Review**.
 
 ---
 
-## Repository request information
-
-When licensing is relevant to a new repository or publication request, teams
-should be prepared to provide:
-
-**Proposed license:**  
-[License or "Needs Review"]
-
-**Code ownership:**  
-[Dynatrace / upstream / customer / partner / mixed / unknown]
-
-**Third-party code included:**  
-Yes / No / Unknown
-
-**Fork or derivative work:**  
-Yes / No
-
-**Customer or partner code included:**  
-Yes / No
-
-**Relicensing proposed:**  
-Yes / No
-
-**Unresolved licensing questions:**  
-[Describe any open questions]
-
-This information helps reviewers identify issues before publication rather than
-after the repository becomes public.
-
----
-
 ## Related guidance
 
 - [Should This Be Open Source?](../getting-started/should-this-be-open-source.md)
